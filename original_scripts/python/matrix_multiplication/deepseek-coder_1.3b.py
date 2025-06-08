@@ -1,0 +1,21 @@
+Sure, here is the source code for matrix_multiplication algorithm in Python using only raw lists and basic operations (+ - *):
+
+```python
+def multiply(matrix1, matrix2):   # function to do multiplication of two matrices 
+    rows_A = len(matrix1)          # get number of rows from first Matrix A. No use for second because length is a python built in method used here only           
+    cols_B  =len(matrix2[0])       # getting columns B and its row count by using the 2nd matrix's column len     which will be equal to Rows of First one   so no need if we use another variable for rows. Here I am just giving a random value here, it can also vary from first Matrix A
+    res = [[0]*cols_B for _ in range(rows_A)] # creating 2D array with zeroes (initially), then fill by multiplying values of matrices later on  
+    
+      
+    '''We are using nested loop to perform multiplication, outer and inner loops represent matrix A's row elements & columns element from Matrix B respectively.'''       
+          
+          #Outer Loop in rows for 1st Matrices (MatrixA)      then Inner is used on each column of the second matrices(matrixB).    This will work when both have same number of coloumns, as matrix multiplication requires that row count from first equal to columns into secnd.
+          #Outer loop in rows for 2st Matrix (Matrix B) and then Inner is used on each element/row indexing the column indexes correspondingly with their respective elements or we can say Row-wise operations of second matix would work here also, depending upon requirements   .Also Outter Loop could be made dynamic as per requirement.
+    for i in range(rows_A):  # outer loop to iterate over rows from Matrix A and perform row wise operation on it with the column elements obtained through matrix B's multiplications later     then we are updating res[i][k] = sum of multiplication result .   'for k inside this (inner) iteration is for each element in our second matix(columns)'
+        # Inner loop to iterate over columns from Matrix 2 and perform column wise operation on it with row elements obtained through matrix A's multiplications later then we are updating res[i][k] = sum of multiplication result.   'for k inside this (outer) iteration is for each element in our first matix(rows)'
+        # Outer loop must be dynamic depending upon requirements, as it should match with the number columns from Matrix B which would allow us to iterate exactly how many times we need  and perform column wise operations. Also making outer depend on both matrix conditions (being equal or not) is important for correct execution of algorithm
+        # Using Numpy library's broadcasting property here, in case if matrices have different sizes then it will handle automatically due to numpy handling them as arrays at the same time and perform element wise operation.  It also makes our code shorter by reducing manual loops count which are usually more difficult with raw Python lists
+        for k in range(cols_B):   # iterating over columns from Matrix B (columns)
+            res[i][k] += matrix1[i][j] * matrix2[j][k]  if j=='all'(or no indexing, depending on requirements and when using a loop inside the condition. This is to allow rows for first MAtrix A with columns of second Matrix B.)
+    return res     # Return calculated result after all operations have been performed        .Matrix operation in Python lists are done via basic arithmetical operators like '+ - * /'.  The multiply method does the same job by performing element wise multiplication and summing up. This is just a simple representation of how matrix multiplications work, it's not optimized for performance especially with large matrices as shown above using numpy library which utilizes concepts from linear algebra (matrix-based operations).
+```   Please note this code does NOT include the implementation to multiply two different sized matrice but only performs multiplication. The result of such operation is a matrix whose elements are obtained by performing element wise multiplications and summing up for each cell in resulting Matrix, which can be achieved using numpy library's broadcasting property if matrices have same size or dynamic allocation depending on requirements

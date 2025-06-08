@@ -1,0 +1,33 @@
+Buongiorno prof., ho iniziato con gli esperimenti e ho notato qualche problema con la scala di valutazione per la correttezza dell'output che abbiamo scelto: in alcuni casi mi viene difficile capire che punteggio sottrarre perché il codice anche se prodotto presenta diversi errori ed è fondamentalmente inutilizzabile. Inoltre, si rischia di valutare un semplice erorre lessicale (sottraendo 0,1) allo stesso modo di un grave errore logico (-0,1).
+Per questi motivi volevo proporle una scala di valutazione che forse ci permette di identificare meglio l'output prodotto. L'ho sviluppata guardando i vari risultati ottenuti:
+
+[0] Codice non generato:
+L'LLM non è riuscito a produrre alcun output di codice.
+
+[1] Codice generato, ma inutilizzabile (errori lessicali e/o sintattici molto gravi):
+Il codice presenta errori lessicali o sintattici così gravi, numerosi o fondamentali da impedire qualsiasi utilizzo dello stesso. Risulta essere, tutto sommato, privo di senso.
+
+[2] Codice generato, ma con gravi errori logici:
+Il codice è sintatticamente e semanticamente valido e può essere eseguito, ma presenta una logica completamente errata o fallace.
+
+[3] Codice generato, ma con errori semantici o lievi errori logici:
+Il codice è sintatticamente corretto. Tuttavia, presenta errori semantici oppure lievi errori logici che influiscono sulla precisione del risultato.
+
+[4] Codice generato, ma con errori lessicali e/o sintattici minori:
+Il codice presenta uno o pochi errori sintattici e/o o lessicali  che sono facili da identificare e correggere. Una volta risolti, può essere utilizzato per la sua correttezza funzionale.
+
+[5] Codice perfettamente funzionante:
+Il codice è corretto da tutti i punti di vista.
+
+
+
+Inizialmente avevo pensato di introdurre un altro livello per valutare anche l'efficenza e la struttura del codice funzionante (declassando il [5] e introducendo un livello [6]), ma non vorrei rischiare di valutare troppe variabili e spostare l'attenzione dal numero di token usati.
+
+Inoltre, volevo informarla che ho dovuto sostituire i modelli "starcoder2" con i modelli di Google "gemma" (da 2b e da 7b) perché i primi sono risultati completamente inutilizzabili.
+
+La ringrazio ancora per la disponibilità e resto in attesa di un suo gentile riscontro.
+
+Cordialmente,
+
+Giovanni Felle
+

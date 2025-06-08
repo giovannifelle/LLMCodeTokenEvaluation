@@ -1,0 +1,4 @@
+```rust
+pub fn matrix_multiplication(a: &[Vec<f32>], b: Vec<Vec<f32>>) -> Result<MatrixMultiplicationResult, String> {    
+    let (rows1, cols0) = a.iter().fold((0usize, 0), |(count, count_inner), _| (count+1, *count_inner));   // rows in first matrix and total columns of second one respectively        
+                                                                                            if !b[0].is_empty() {        # Otherwise the number column mismatch.      return Err("Number Column Mismatched".to_string());  }     let cols1 = b[0].len();   // calculate rows in first matrix and total columns of second one respectively    match a[rows][*cols]*{       case [Some(x), Some(y)]: {         return Ok((a, x as f32 * y));        }                                   #  default:             break;      };     Err("Matrix Multiplication not possible".to_string())

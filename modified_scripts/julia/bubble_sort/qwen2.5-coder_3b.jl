@@ -1,0 +1,15 @@
+Certainly! Here's the pure Julia source code for the bubble sort algorithm:
+
+```julia
+function bubble_sort(arr)
+    n = length(arr)
+    for i = 1:n-1
+        for j = 1:n-i-1
+            if arr[j] > arr[j+1]
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+            end
+        end
+    end
+    return arr
+end
+```
