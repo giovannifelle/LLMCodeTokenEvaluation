@@ -1,4 +1,4 @@
-```java
+
 public class MatrixMultiplication {
     public static void multiplyMatrices(int[][] matrix1, int[][] matrix2, int[][] result) {
         int rows1 = matrix1.length;
@@ -15,4 +15,3 @@ public class MatrixMultiplication {
         }
     }
 }
-```

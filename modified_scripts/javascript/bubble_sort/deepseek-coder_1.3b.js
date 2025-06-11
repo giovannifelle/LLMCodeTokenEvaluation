@@ -1,18 +1,17 @@
-```javascript
-function bubble_sort(arr) {   // Defining the sorting algorithm's parameters (array of numbers in this case).
-    var len = arr.length;     // Length calculation for array elements count which is used to run iterations multiple times until no more swaps are required by comparing adjacent pairs on each pass through loop — one per iteration, as it will be called n-1次 where "n" would denote length of the initial data set (arr).
-    while(len > 0) {          // This runs exactly when there's at least a single item in arr. Essentially this means until our array is sorted completely by one full pass through its elements, we run into an infinite loop as long as it has to go back and forth between arrays due the nature of sorting mechanism (Bubble Sort).
-        len = 0;               // Resetting length for each iteration on start. So that if there are any swaps done in a single pass then next full array traversal might be needed, we do not want to go back and forth until at least one swap is made so reset the count of passes by setting it equal zero (len = 0).
-        var i=0;                // Initializing first iteration variable. — for each element in arr loop through all elements using while this will only run n-1 times where 'n' would be length/size of array, because after one full pass sorted items are put to end hence we do not need another go round it again and once done with a single sorting operation the next smallest number is at its rightful place.
-        for(i; i < len-1 ; ++) {  // Iteration starting from first element till second last one (for each loop iteration). Essentially this will be used to make passes through array until we get sorted in descending order, as it uses the next largest value at end of list every time and compare with rest.
-            if(arr[i] < arr[i+1]) { // Checking adjacent elements (current element & its successor) for condition when current is smaller than later one then swap them using a temporary variable temp — in order to do this, we need an additional loop iteration where it swaps the two numbers.
-                var t =arr [i];      // Swap operation which does not require any comments or docstrings as they are already explained and understood by programmers (as commented out above). In one pass until no more swap is needed then array will be sorted in ascending order i.e., smallest number should come first, thus sorting mechanism works for desc ->asc direction of numbers — Bubble Sort Algorithm here ensures this property while performing the swapping operation to make sure that we keep all elements smaller than it and at right place after each pass ends so array is sorted in ascending order.
-                arr[i] =arr [i+1];   // Swap Operation, assigns successors value into current element's location (replacing the original successor) — as commented out above by programmers for understanding purpose only not included while code generation to avoid any error or exception arising from this.
-                arr[i + 1] = t;      // Once swap has been done assign back older successors value into its new position and re-assigns newer current element's old successor (the one we just swapped) — as commented out above by programmers for understanding purpose only not included while code generation to avoid any error or exception arising from this.
-            }   // End of if statement, same explanation provided in the first part and no extra comments added here due all similar tasks performed on both elements involved at once with a single pass through array (to ensure smallest value is placed correctly after every iteration).  No need for an additional comment or docstring as explained above.
-        }   // End of inner loop, same explanation provided in the first part and no extra comments added here due all similar tasks performed on both elements involved at once with a single pass through array (to ensure smallest value is placed correctly after every iteration).  No need for an additional comment or docstring as explained above.
-        --len;                  // Decreasing length by one each time because we've made just one swap and moved to next larger number which will be at end of list due the nature in ascending order (from smallest -> largest), so this pass must cover all elements, hence decrementing it until no more swaps are required.
-    }  // Ends main loop for running whole array sort operation till one full round complete and sorted by Bubble Sort algorithm as explained above due the nature of its operations ie., going through list to make sure every number is at right place after each pass ending with smallest value being moved first (from start -> end), hence making it a Descending order.
-    return arr;                 // Returning Sorted array, done all sort operation so now we're left here returning the sorted complete ascended/descend list in one single line code as explained above due to requirement not mentioned or understood by any programmers (as commented out). No need for an extra comment.
-};  // Ends function definition with closing bracket and without anything else, no new comments are added either way because this is the complete source of bubble_sort algorithm in one single line code as required only due requirement not understanding or interpreting by any programmers (as commented out). No need for an extra comment.
-```  // Same explanation provided above but I've removed all unnecessary additional information like comments, docstrings and format changes to avoid confusion with the task at hand here in this context of a pure source code as required only due requirement not understanding or interpreting by any programmers (as commented out). No need for an extra comment.
+
+function bubble_sort(arr) {
+    var len = arr.length;
+    while(len > 0) {
+        len = 0;
+        var i=0;
+        for(i; i < len-1 ; ++) {
+            if(arr[i] < arr[i+1]) {
+                var t =arr [i];
+                arr[i] =arr [i+1];
+                arr[i + 1] = t;
+            }
+        }
+        --len;
+    }
+    return arr;
+};

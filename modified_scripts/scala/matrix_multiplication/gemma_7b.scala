@@ -1,4 +1,4 @@
-```scala
+
 object MatrixMultiplication {
 
   def multiply(a: Array[Array[Int]], b: Array[Array[Int]]) : Array[Array[Int]] = {
@@ -16,4 +16,3 @@ object MatrixMultiplication {
   }
 
 }
-```

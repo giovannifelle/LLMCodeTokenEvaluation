@@ -1,6 +1,4 @@
-Here is the pure source code for a basic matrix multiplication algorithm in Crystal:
 
-```crystal
 def matrix_multiplication(a : Array2D(Int32), b : Array2D(Int32)) : Array2D(Int32)
   rows_a = a.size
   cols_a = a[0].size
@@ -21,5 +19,3 @@ def matrix_multiplication(a : Array2D(Int32), b : Array2D(Int32)) : Array2D(Int3
   
   return result
 end
-```
-This code defines a method `matrix_multiplication` that takes two 2D arrays (matrices) as input and returns their product. The matrices must have the right dimensions for multiplication to be possible, i.e., the number of columns in the first matrix should equal the number of rows in the second one.

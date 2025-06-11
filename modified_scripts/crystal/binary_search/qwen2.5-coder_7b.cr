@@ -1,4 +1,4 @@
-```crystal
+
 def binary_search(array : Array(Int32), target : Int32) : Int32 | Nil
   low = 0
   high = array.length - 1
@@ -18,4 +18,3 @@ def binary_search(array : Array(Int32), target : Int32) : Int32 | Nil
 
   nil
 end
-```

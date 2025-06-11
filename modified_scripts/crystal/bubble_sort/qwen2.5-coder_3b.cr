@@ -1,4 +1,4 @@
-```crystal
+
 def bubble_sort(arr)
   arr.length.times do |i|
     (arr.length - i - 1).times do |j|
@@ -6,4 +6,3 @@ def bubble_sort(arr)
     end
   end
 end
-```

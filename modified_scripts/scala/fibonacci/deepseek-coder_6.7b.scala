@@ -1,6 +1,4 @@
-Here is the pure source code for a Fibonacci algorithm in Scala:
 
-```scala
 def fib(n: Int): Int = {
   @annotation.tailrec
   def go(n: Int, a: Int, b: Int): Int = n match {
@@ -10,4 +8,3 @@ def fib(n: Int): Int = {
   
   go(n, 0, 1)
 }
-```

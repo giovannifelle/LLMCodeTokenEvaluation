@@ -1,4 +1,3 @@
-```javascript
 
 function multiplyMatrix(A, B) {
     const rowsA = A.length;
@@ -22,4 +21,3 @@ function multiplyMatrix(A, B) {
 
     return result;
 }
-```

@@ -1,4 +1,4 @@
-```r
+
 matrix_multiplication <- function(matrix1, matrix2) {
   n <- nrow(matrix1)
   m <- ncol(matrix2)
@@ -10,4 +10,3 @@ matrix_multiplication <- function(matrix1, matrix2) {
   }
   return(result)
 }
-```

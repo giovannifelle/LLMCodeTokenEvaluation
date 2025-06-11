@@ -1,4 +1,4 @@
-```javascript
+
 function bubbleSort(arr) {
     var len = arr.length;
     for (var i = 0; i < len - 1; i++) {
@@ -12,4 +12,3 @@ function bubbleSort(arr) {
     }
     return arr;
 }
-```

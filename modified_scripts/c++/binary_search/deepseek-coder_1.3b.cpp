@@ -1,11 +1,11 @@
-```cpp
+
 int binary_search(vector<T>& arr, T target) {
     int left = 0;
-    int right = (int)(arr.size() - 1); // assuming the array is sorted in increasing order for simplicity's sake here and also to prevent overflow error of integer division when size becomes very large positive number due to typecasting from double or long data types, which will be fixed later after finding max element
+    int right = (int)(arr.size() - 1); 
     while (left <= right) {  
-        int mid = left + ((right - left) >> 1);  // avoids the risk for overflow caused by integer division in C++ when 'mid' is calculated with "(long)(a+ b)" type cast, which can lead to wrong value due to numeric precision issues of floating point numbers
-        if (arr[mid] == target){    return mid; }  // element found at the middle so stop and return index here. This will be optimized for best case scenario because it stops as soon as we find a match or when left > right, which means that array is exhausted after this operation to save unnecessary comparison
-        else if (arr[mid] < target){   left = mid + 1; } // element can only exists in the second part so move start pointer along.  This will optimize binary_search for worst case scenario where we have a sorted list and searching on right side of middle point as there are no matches before
-        else {                          right = mid - 1;}   // if arr[mid] > target then element can only exists in the first part so move end pointer to left. This will optimize binary_search for worst case scenario where we have a sorted list and searching on left side of middle point as there are no matches after
-    }                                   return -1;  // not found if control reaches here it means that target is out range from arr[left]...arr[right]. We can add more error handling code in this. For example, throw exception or use a global variable to indicate whether the search finished successfully and which index contains our result
-}   ```   (This solution assumes you are using standard C++ where T could be any type like int/long long etc)  Note that binary_search is not guaranteed efficient for large data sets as it may go on indefinitely until finding a match or the left > right condition. If efficiency matters, consider some more advanced algorithms such sorting and searching methods with probabilistic approaches if you need to handle very big datasets efficiently.
+        int mid = left + ((right - left) >> 1);  
+        if (arr[mid] == target){    return mid; } 
+        else if (arr[mid] < target){   left = mid + 1; } 
+        else {                          right = mid - 1;}   
+    }                                   return -1;  
+} 

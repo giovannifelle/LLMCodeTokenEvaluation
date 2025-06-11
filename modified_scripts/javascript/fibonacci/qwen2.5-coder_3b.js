@@ -1,4 +1,4 @@
-```javascript
+
 
 function fib(n) {
   if (n <= 1) return n;
@@ -10,4 +10,3 @@ function fib(n) {
   }
   return c;
 }
-```

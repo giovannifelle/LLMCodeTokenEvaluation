@@ -1,4 +1,4 @@
-```scala
+
 def matrixMultiplication(matrix1: Array[Array[Int]], matrix2: Array[Array[Int]]): Array[Array[Int]] = {
   var result: Array[Array[Int]] = Array.empty[Array[Int]](matrix1.length, matrix2(0).length)
 
@@ -12,4 +12,3 @@ def matrixMultiplication(matrix1: Array[Array[Int]], matrix2: Array[Array[Int]])
 
   result
 }
-```

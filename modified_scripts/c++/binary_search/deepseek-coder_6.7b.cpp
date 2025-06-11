@@ -1,4 +1,4 @@
-```cpp
+
 template<typename T>
 int binary_search(T arr[], int start, int end, T target) {
     if (end >= start) {
@@ -13,4 +13,3 @@ int binary_search(T arr[], int start, int end, T target) {
     
     return -1;
 }
-```

@@ -1,4 +1,4 @@
-```r
+
 fib <- function(n) {
   if (n < 2) {
     return(n)
@@ -6,4 +6,3 @@ fib <- function(n) {
     return(fib(n-1) + fib(n-2))
   }
 }
-```

@@ -1,4 +1,4 @@
-```javascript
+
 function binarySearch(arr, x) {
     let start = 0;
     let end = arr.length - 1;
@@ -14,4 +14,3 @@ function binarySearch(arr, x) {
     
     return false;
 }
-```

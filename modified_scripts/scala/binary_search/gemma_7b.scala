@@ -1,4 +1,4 @@
-```scala
+
 def binarySearch(arr: Array[Int], target: Int): Int = {
   var low = 0
   var high = arr.length - 1
@@ -17,4 +17,3 @@ def binarySearch(arr: Array[Int], target: Int): Int = {
 
   -1
 }
-```

@@ -1,4 +1,4 @@
-```crystal
+
 module MatrixMultiplication
   def self.multiply(a, b)
     rows_a = a.length
@@ -20,4 +20,3 @@ module MatrixMultiplication
     result
   end
 end
-```

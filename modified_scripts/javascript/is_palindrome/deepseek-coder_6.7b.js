@@ -1,4 +1,4 @@
-```javascript
+
 function is_palindrome(str) {
     var len = str.length;
     for (var i = 0; i < Math.floor(len / 2); i++) {
@@ -8,4 +8,3 @@ function is_palindrome(str) {
     }
     return true;
 }
-```

@@ -1,4 +1,4 @@
-```cpp
+
 int binary_search(int arr[], int left, int right, int target) {
     while (left <= right) {
         int mid = left + (right - left) / 2;
@@ -8,4 +8,3 @@ int binary_search(int arr[], int left, int right, int target) {
     }
     return -1;
 }
-```

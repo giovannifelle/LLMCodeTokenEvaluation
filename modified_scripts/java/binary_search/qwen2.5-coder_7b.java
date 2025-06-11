@@ -1,4 +1,4 @@
-```java
+
 public class BinarySearch {
     public static int search(int[] arr, int target) {
         int left = 0;
@@ -19,4 +19,3 @@ public class BinarySearch {
         return -1;
     }
 }
-```

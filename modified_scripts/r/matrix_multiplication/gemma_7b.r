@@ -1,4 +1,4 @@
-```r
+
 matrix_multiplication <- function(matrix1, matrix2) {
   if (ncol(matrix1) != nrow(matrix2)) {
     stop("Matrices are not compatible for multiplication.")
@@ -13,4 +13,3 @@ matrix_multiplication <- function(matrix1, matrix2) {
   }
   return(result)
 }
-```

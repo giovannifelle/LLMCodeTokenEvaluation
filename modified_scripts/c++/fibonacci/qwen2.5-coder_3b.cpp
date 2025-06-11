@@ -1,4 +1,3 @@
-```cpp
 
 int fib(int n) {
     if (n <= 1) return n;
@@ -10,4 +9,3 @@ int fib(int n) {
     }
     return b;
 }
-```

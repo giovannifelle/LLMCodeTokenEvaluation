@@ -1,12 +1,10 @@
-Here is the source code for binary_search algorithm in Crystal language without comments and no imports of external libraries :-
-```crystal
-def binarySearch(arr: [Int], lowIndex: Int, highIndex: Int, x: Int) = {  # define a function with parameters arr (integer array), lower index initially set as zero. High Index is length -1 for the last element in sorted list which will be searched by 'x'
-    if(highIndex >= lowIndex){                             # check while highindex value greater than or equal to lowest-most available indexes, meaning there are elements remaining that need checking 
-        mid = (lowIndex + highIndex) /2;                     # calculate middle index in array arr[]. The most common way of finding the Middle element is by calculating it as average between low and hight indices plus one   //mid=(start+end)/2, where start = 0 end length - 1
-        if (arr[mid] == x) { return mid; }                    # check current middle index value with 'x' to see whether match found. If yes then this is our answer and exit function early by returning the position of element in array arr[]   //returning it immediately as we have got required location
-        else if (arr[mid] > x) {  highIndex = mid -1; }       # 'x' must be on left side, so reduce end index to current middle minus one and continue this process. If not found then return by returning no match in the list   //change ending point of search range
-        else{ lowIndex=mid+1;}                              # if x is greater than mid element change starting position as next step will be on higher half till we find 'x'  (if exist) so continue this process. If not found then return by returning no match in the list   //change initial start point
-    }                                                        # end of while loop, when all possible combinations are exhausted(element is either present or doesn’t reach here), it means element doesnt come up there hence say NO MATCH FOUND and we gotta go with that.  Hence return -1;// if middle value not found at the given range
-}                                                            # end of function binarySearch() definition   //calling this method to search for a particular item in sorted array, where arr is your integer list or 'input' parameter & x represents target element you want find ('key') 
-```                                                                   
-Note: Binary Search algorithm works on the principle that if we split an almost-sorted list into two halves and look at all elements then it will be able to decide whether our desired value is in first half or second one. It continues this process till you found your item (if exist) by dividing sorted array segment until just remaining section become empty ie, endIndex - start index becomes 1 which means we have checked the entire list of elements and hence return 'no match'.
+
+
+def binarySearch(arr: [Int], lowIndex: Int, highIndex: Int, x: Int) = {
+    if(highIndex >= lowIndex){
+        mid = (lowIndex + highIndex) /2;
+        if (arr[mid] == x) { return mid; }
+        else if (arr[mid] > x) {  highIndex = mid -1; }
+        else{ lowIndex=mid+1;}
+    }
+}

@@ -1,4 +1,4 @@
-```c++
+
 int binary_search(int arr[], int n, int target) {
   int low = 0;
   int high = n - 1;
@@ -17,4 +17,3 @@ int binary_search(int arr[], int n, int target) {
 
   return -1;
 }
-```

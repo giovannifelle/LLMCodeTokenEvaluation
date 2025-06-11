@@ -1,4 +1,4 @@
-```r
+
 binary_search <- function(arr, target) {
   left <- 1
   right <- length(arr)
@@ -15,4 +15,3 @@ binary_search <- function(arr, target) {
   }
   return(-1)
 }
-```

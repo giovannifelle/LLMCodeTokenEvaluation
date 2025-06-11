@@ -1,4 +1,4 @@
-```r
+
 bubble_sort <- function(nums) {
   for (i in 1:length(nums)) {
     for (j in 2:length(nums)) {
@@ -11,4 +11,3 @@ bubble_sort <- function(nums) {
   }
   return(nums)
 }
-```

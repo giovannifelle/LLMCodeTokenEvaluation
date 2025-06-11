@@ -1,5 +1,4 @@
-#include <string>
-#include <algorithm>
+
 
 bool is_palindrome(const std::string& s) {
     int left = 0;

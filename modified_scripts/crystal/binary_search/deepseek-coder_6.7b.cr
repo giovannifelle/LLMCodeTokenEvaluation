@@ -1,4 +1,4 @@
-```crystal
+
 def binary_search(data : Array(Int32), target : Int32) : Bool
     low = 0
     high = data.size - 1
@@ -14,4 +14,3 @@ def binary_search(data : Array(Int32), target : Int32) : Bool
 
    false
 end
-```

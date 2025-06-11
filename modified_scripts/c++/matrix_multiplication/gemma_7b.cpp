@@ -1,4 +1,4 @@
-```c++
+
 int** matrix_multiplication(int** a, int** b, int m, int n, int p) {
     int** c = new int*[m];
     for (int i = 0; i < m; ++i) {
@@ -13,4 +13,3 @@ int** matrix_multiplication(int** a, int** b, int m, int n, int p) {
     }
     return c;
 }
-```

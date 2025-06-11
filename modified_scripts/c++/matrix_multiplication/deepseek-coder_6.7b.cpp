@@ -1,8 +1,3 @@
-Sure, here is the source code for matrix multiplication algorithm in C++ without comments or explanations:
-
-```cpp
-#include <vector>
-using namespace std;
 
 vector<vector<int>> matrix_multiplication(vector<vector<int>>& A, vector<vector<int>>& B) {
     int n = A.size();
@@ -18,5 +13,3 @@ vector<vector<int>> matrix_multiplication(vector<vector<int>>& A, vector<vector<
     
     return result;
 }
-```
-Please remember to link this function in your main function with the required parameters and handle exceptions as per your program's requirement. Also, ensure that the dimensions of the input matrices are suitable for matrix multiplication (i.e., number of columns in first matrix equals number of rows in second).

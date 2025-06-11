@@ -1,13 +1,12 @@
-```cpp
-void bubble_sort(int arr[], int size) { // The array to sort and its length as parameters
-    for (int i = 0; i < size - 1; ++i){     // Loop through all elements in the list from start till end-2. Because after one complete pass, largest element will be at correct position itself so we don't need it again during next iterations of loop which is why 'size - i - 1'.
-        for (int j = 0; j < size - i - 1; ++j){ // Inner-most iteration to compare current and following elements. With each complete pass, the largest element will be moved towards end so we don't need it again during next iterations of inner loop which is why 'size - i - 1'.
-            if (arr[j] > arr[j + 1]) { // If an adjacent pair isn’t in order... swap them. The ">" operator inside the brackets means, we are checking that element on right side should be larger than left one and sorting it correctly then swapping elements at both ends of array
-                int temp = arr[j];    // Temporarily store current index j to compare after this inner loop finishes executing. After swap occurs in next iteration if the value isn't yet sorted properly, we can restore that stored temporary variable from before and put it into its rightful place (current element). Without swapping they are already at their correct position as sorting continues till all elements have been traversed for each pass through our inner loop.
-                arr[j] = arr[j + 1];  // Swap the two values, current index 'i' and next one by increment j so it goes to rightful spot (next larger value). After this swap occurs in subsequent iterations of outer loop if elements aren’t sorted properly before that point due to swapping.
-                arr[j+1] = temp;    // Assign the temporary stored variable into its correct position – currently, we have a 'larger' number waiting for next place (after our current element), so it should go in rightful spot there after this swap occurs and before inner loop continues to check if elements are sorted properly.
+
+void bubble_sort(int arr[], int size) { 
+    for (int i = 0; i < size - 1; ++i){     
+        for (int j = 0; j < size - i - 1; ++j){ 
+            if (arr[j] > arr[j + 1]) { 
+                int temp = arr[j];    
+                arr[j] = arr[j + 1];  
+                arr[j+1] = temp;    
             }  
-        }    // End of Inner Loop      
-     }      //Ends the Outer loops  - sorting process is complete once we reach here when all passes have been made by outerloop, so no need for comparison again as now arr[i] will be largest in sorted sub-array.   Without swapping this element with its next one and before inner loop continues to check if elements are sorted properly due the temporary variable restored after swap occurs previously
- }      //Ends Bubble Sort Algorithm - sorting process is complete once we reach here when all passes have been made by outerloop, so no need for comparison again as now arr[i] will be largest in sorted sub-array.  Without swapping this element with its next one and before inner loop continues to check if elements are sorted properly due the temporary variable restored after swap occurs previously
-```    //Ends Bubble Sort Algorithm - sorting process is complete once we reach here when all passes have been made by outerloop, so no need for comparison again as now arr[i] will be largest in sorted sub-array.  Without swapping this element with its next one and before inner loop continues to check if elements are sorted properly due the temporary variable restored after swap occurs previously
+        }   
+     }    
+ }    

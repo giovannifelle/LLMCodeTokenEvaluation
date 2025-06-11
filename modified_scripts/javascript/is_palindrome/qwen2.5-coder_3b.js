@@ -1,4 +1,4 @@
-```javascript
+
 function is_palindrome(s) {
   let left = 0;
   let right = s.length - 1;
@@ -13,4 +13,3 @@ function is_palindrome(s) {
 
   return true;
 }
-```

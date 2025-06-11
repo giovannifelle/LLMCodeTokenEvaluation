@@ -1,4 +1,4 @@
-```crystal
+
 algorithm bubble_sort {
   input: array;
   output: array;
@@ -20,4 +20,3 @@ algorithm bubble_sort {
 
     return array;
 }
-```

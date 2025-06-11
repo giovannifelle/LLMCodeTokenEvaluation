@@ -1,7 +1,4 @@
-#include <iostream>
-#include <vector>
 
-using namespace std;
 
 int main() {
     int rows1, cols1, rows2, cols2;

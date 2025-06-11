@@ -1,4 +1,4 @@
-```javascript
+
 function binarySearch(arr, target) {
   let low = 0;
   let high = arr.length;
@@ -16,4 +16,3 @@ function binarySearch(arr, target) {
 
   return -1;
 }
-```

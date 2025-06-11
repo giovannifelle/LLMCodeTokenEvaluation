@@ -1,6 +1,4 @@
-Certainly! Below is the pure source code for a Fibonacci algorithm in R:
 
-```R
 fibonacci <- function(n) {
   if (n <= 0) return(0)
   if (n == 1) return(1)
@@ -17,4 +15,3 @@ fibonacci <- function(n) {
   
   return(current)
 }
-```

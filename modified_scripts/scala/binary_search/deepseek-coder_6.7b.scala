@@ -1,4 +1,4 @@
-```scala
+
 def binarySearch(arr: Array[Int], low: Int, high: Int, key: Int): Boolean = {
     if (high >= low) {
         val mid = low + (high - low) / 2
@@ -8,4 +8,3 @@ def binarySearch(arr: Array[Int], low: Int, high: Int, key: Int): Boolean = {
         else binarySearch(arr, mid + 1, high, key)
     } else false
 }
-```

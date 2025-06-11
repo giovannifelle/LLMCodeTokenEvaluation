@@ -1,4 +1,4 @@
-```r
+
 matrix_multiplication <- function(A, B) {
   n <- nrow(A)
   m <- ncol(B)
@@ -16,4 +16,3 @@ matrix_multiplication <- function(A, B) {
   
   return(C)
 }
-```

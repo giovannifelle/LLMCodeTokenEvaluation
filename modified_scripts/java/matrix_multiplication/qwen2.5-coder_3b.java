@@ -1,4 +1,3 @@
-```java
 public class MatrixMultiplication {
     public static int[][] multiply(int[][] a, int[][] b) {
         int rowsA = a.length;
@@ -18,4 +17,3 @@ public class MatrixMultiplication {
         return result;
     }
 }
-```

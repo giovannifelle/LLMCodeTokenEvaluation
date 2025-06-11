@@ -1,4 +1,4 @@
-```cpp
+
 
 int** multiplyMatrices(int** A, int** B, int rowsA, int colsA, int colsB) {
     if (colsA != rowsB) return nullptr; // Check for valid matrix multiplication dimensions
@@ -15,4 +15,3 @@ int** multiplyMatrices(int** A, int** B, int rowsA, int colsA, int colsB) {
     }
     return result;
 }
-```

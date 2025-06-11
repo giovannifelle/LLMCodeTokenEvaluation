@@ -1,4 +1,4 @@
-```java
+
 public class Fibonacci {
 
     public static int fibonacci(int n) {
@@ -8,4 +8,3 @@ public class Fibonacci {
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }
-```

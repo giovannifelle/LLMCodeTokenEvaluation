@@ -1,4 +1,4 @@
-```javascript
+
 function multiplyMatrices(a, b) {
     const result = [];
     for (let i = 0; i < a.length; i++) {
@@ -14,4 +14,3 @@ function multiplyMatrices(a, b) {
     }
     return result;
 }
-```

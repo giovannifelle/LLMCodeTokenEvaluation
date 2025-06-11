@@ -1,4 +1,4 @@
-```crystal
+
 def is_palindrome(word):
     """
     Checks if a given word is a palindrome.
@@ -11,4 +11,3 @@ def is_palindrome(word):
     """
 
     return word == word[::-1]
-```

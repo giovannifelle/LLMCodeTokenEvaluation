@@ -1,4 +1,4 @@
-```r
+
 is_palindrome <- function(x) {
   str_x <- as.character(x)
   n <- length(str_x)
@@ -7,4 +7,3 @@ is_palindrome <- function(x) {
   }
   TRUE
 }
-```

@@ -1,4 +1,4 @@
-```scala
+
 object BubbleSort {
 
   def sort(arr: Array[Int]): Array[Int] = {
@@ -17,4 +17,3 @@ object BubbleSort {
   }
 
 }
-```

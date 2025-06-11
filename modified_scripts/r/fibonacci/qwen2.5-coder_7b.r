@@ -1,4 +1,4 @@
-```r
+
 fibonacci <- function(n){
   if(n <= 1) return(n)
   a <- 0
@@ -10,4 +10,3 @@ fibonacci <- function(n){
   }
   return(b)
 }
-```

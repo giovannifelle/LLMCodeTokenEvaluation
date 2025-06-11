@@ -1,4 +1,4 @@
-```crystal
+
 def fibonacci(n : Int32) : Int32
   return n if n <= 1
   a = 0
@@ -10,4 +10,3 @@ def fibonacci(n : Int32) : Int32
   end
   b
 end
-```

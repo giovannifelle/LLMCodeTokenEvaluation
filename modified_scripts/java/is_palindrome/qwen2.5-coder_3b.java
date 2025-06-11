@@ -1,4 +1,4 @@
-```
+
 public class PalindromeChecker {
   public static boolean isPalindrome(String str) {
     int left = 0;
@@ -11,4 +11,3 @@ public class PalindromeChecker {
     return true;
   }
 }
-```

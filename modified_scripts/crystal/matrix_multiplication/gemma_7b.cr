@@ -1,4 +1,4 @@
-```crystal
+
 fn matrix_multiplication(
     matrix1: Vec<Vec<Fix64>>,
     matrix2: Vec<Vec<Fix64>>,
@@ -19,4 +19,3 @@ fn matrix_multiplication(
 
     result
 }
-```

@@ -1,4 +1,4 @@
-```crystal
+
 def fib(n)
   if n < 2
     n
@@ -6,4 +6,3 @@ def fib(n)
     fib(n - 1) + fib(n - 2)
   end
 end
-```

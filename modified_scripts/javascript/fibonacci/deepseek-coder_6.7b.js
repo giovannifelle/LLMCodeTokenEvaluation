@@ -1,4 +1,4 @@
-```javascript
+
 function fibonacci(n) {
     if (n <= 2) return 1;
     var prev = 1, next = 1;
@@ -9,4 +9,3 @@ function fibonacci(n) {
     }
     return next;
 }
-```

@@ -1,4 +1,4 @@
-```c++
+
 void bubbleSort(int arr[], int n) {
   int i, j;
   int temp;
@@ -13,4 +13,3 @@ void bubbleSort(int arr[], int n) {
     }
   }
 }
-```

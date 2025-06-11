@@ -1,4 +1,4 @@
-```scala
+
 object MatrixMultiplication {
   def multiply(A: Array[Array[Int]], B: Array[Array[Int]]): Array[Array[Int]] = {
     val (m, n) = (A.length, A(0).length)
@@ -20,4 +20,3 @@ object MatrixMultiplication {
     result
   }
 }
-```

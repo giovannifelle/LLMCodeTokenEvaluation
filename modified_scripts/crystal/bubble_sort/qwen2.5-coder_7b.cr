@@ -1,4 +1,4 @@
-```crystal
+
 def bubble_sort(arr : Array(Int32))
   n = arr.length
   loop do
@@ -12,4 +12,3 @@ def bubble_sort(arr : Array(Int32))
     break unless swapped
   end
 end
-```

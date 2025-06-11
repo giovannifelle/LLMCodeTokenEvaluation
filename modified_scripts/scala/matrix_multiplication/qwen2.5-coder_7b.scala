@@ -1,4 +1,4 @@
-```scala
+
 def matrix_multiplication(a: Array[Array[Int]], b: Array[Array[Int]]): Array[Array[Int]] = {
   val rowsA = a.length
   val colsA = a(0).length
@@ -18,4 +18,3 @@ def matrix_multiplication(a: Array[Array[Int]], b: Array[Array[Int]]): Array[Arr
 
   result
 }
-```

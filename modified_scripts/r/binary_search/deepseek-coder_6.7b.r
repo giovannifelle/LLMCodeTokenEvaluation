@@ -1,6 +1,4 @@
-Sure, here's the source code for a binary search algorithm in R language without comments, documentation and any syntax used for it:
 
-```R
 binary_search <- function(arr, target) {
     left = 1
     right = length(arr)
@@ -17,7 +15,5 @@ binary_search <- function(arr, target) {
         }
     }
     
-    # If target is not in the array, return -1
     return(-1)  
 }
-```

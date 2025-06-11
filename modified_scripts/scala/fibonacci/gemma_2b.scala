@@ -1,4 +1,4 @@
-```scala
+
 object Fibonacci {
 
   def fibonacci(n: Int): Int = {
@@ -8,4 +8,3 @@ object Fibonacci {
     return fibonacci(n - 1) + fibonacci(n - 2)
   }
 }
-```

@@ -1,5 +1,4 @@
-```cpp
-#include <string>
+
 bool is_palindrome(const std::string& str) {
     int left = 0;
     int right = str.length() - 1;
@@ -12,4 +11,3 @@ bool is_palindrome(const std::string& str) {
     }
     return true;
 }
-```

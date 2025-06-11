@@ -1,6 +1,4 @@
-Here is the pure source code for a simple matrix multiplication algorithm in Java:
 
-```java
 public class MatrixMultiplication {
     public static int[][] multiply(int[][] firstMatrix, int[][] secondMatrix) {
         int r1 = firstMatrix.length;
@@ -23,6 +21,3 @@ public class MatrixMultiplication {
         return product;
     }
 }
-```
-
-This is a simple class containing the main method for matrix multiplication. It takes in two 2D arrays as input (matrices) and returns a new 2D array representing their product. The `multiply` function multiplies these matrices together according to standard rules of matrix multiplication, returning `null` if the matrices cannot be multiplied due to dimension mismatch.

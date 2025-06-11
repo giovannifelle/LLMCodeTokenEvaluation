@@ -1,4 +1,4 @@
-```c++
+
 bool is_palindrome(string s) {
   int n = s.length();
   int i = 0;
@@ -14,4 +14,3 @@ bool is_palindrome(string s) {
 
   return true;
 }
-```

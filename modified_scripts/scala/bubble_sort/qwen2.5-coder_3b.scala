@@ -1,4 +1,4 @@
-```scala
+
 def bubbleSort(arr: Array[Int]): Unit = {
   val n = arr.length
   var swapped = true
@@ -16,4 +16,3 @@ def bubbleSort(arr: Array[Int]): Unit = {
     }
   }
 }
-```

@@ -1,4 +1,4 @@
-```javascript
+
 function matrixMultiplication(matrix1, matrix2) {
     const rows1 = matrix1.length;
     const cols1 = matrix1[0].length;
@@ -21,4 +21,3 @@ function matrixMultiplication(matrix1, matrix2) {
 
     return result;
 }
-```

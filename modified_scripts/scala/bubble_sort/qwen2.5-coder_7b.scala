@@ -1,4 +1,4 @@
-```scala
+
 def bubbleSort(arr: Array[Int]): Array[Int] = {
   var n = arr.length
   var swapped: Boolean = false
@@ -17,4 +17,3 @@ def bubbleSort(arr: Array[Int]): Array[Int] = {
   }
   arr
 }
-```

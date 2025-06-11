@@ -1,4 +1,4 @@
-```scala
+
 def bubbleSort(arr: Array[Int]): Unit = {
   var swapped = false
   for (i <- 0 to arr.length - 1) {
@@ -14,4 +14,3 @@ private def swap(arr: Array[Int], i: Int, j: Int): Unit = {
   arr(i) = arr(j)
   arr(j) = temp
 }
-```

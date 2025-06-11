@@ -1,4 +1,4 @@
-```crystal
+
 fn binary_search(arr: &[i32], target: i32) -> usize {
   let mut low = 0
   let mut high = arr.length - 1
@@ -17,4 +17,3 @@ fn binary_search(arr: &[i32], target: i32) -> usize {
 
   -1
 }
-```

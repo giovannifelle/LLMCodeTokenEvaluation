@@ -1,4 +1,4 @@
-```crystal
+
 def matrix_multiplication(a : Array[Array[Int]], b : Array[Array[Int]]) : Array[Array[Int]]
   rows_a = a.length
   cols_a = a[0].length
@@ -18,4 +18,3 @@ def matrix_multiplication(a : Array[Array[Int]], b : Array[Array[Int]]) : Array[
 
   return result
 end
-```

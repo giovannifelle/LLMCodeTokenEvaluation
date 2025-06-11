@@ -1,6 +1,4 @@
-Here is the pure source code for matrix multiplication in Scala without comments and explanations:
 
-```scala
 def scalarMultiply(x: Array[Array[Double]], y: Array[Array[Double]], row1: Int, col1: Int, row2: Int, col2: Int): Double = {
   var sum = 0.0
   for (i <- 0 until row1; j <- 0 until col1) yield {
@@ -22,5 +20,3 @@ def matrixMultiplication(a: Array[Array[Double]], b: Array[Array[Double]], r1: I
   }
   res
 }
-```
-You can use these functions to multiply two matrices. Note that the indices for rows and columns are necessary to perform a multiplication operation on the given matrices. The `scalarMultiply` function calculates dot product of each row from the first matrix with corresponding row from second matrix. This result is then used in the main `matrixMultiplication` function.

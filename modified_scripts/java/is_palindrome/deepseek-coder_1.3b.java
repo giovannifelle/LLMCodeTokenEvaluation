@@ -1,7 +1,11 @@
-```java
-public boolean isPalindrome(String str) {   // Function definition without parameters and return type (boolean).    int start = 0;                           // Initialize the starting index to be at position zero of string         if ((str == null) || (start >= str.length())){// If given input is NULL or empty, then it's not a palindrome  
-            return true;                            // Return false in such cases as all non-null and valid strings are considered to be "empty" when starting     }                                           // end of if condition check for null string & out range index checks.      int end = str.length() -1 ;          // Initialize the ending pointer at last character position
-        while (start < end) {                      // Start a loop from start till next to beginning  
-            char cStart = Character.toLowerCase(str.charAt(start));                                                                     /* If characters are not same then return false */     if (!Character.equalsIgnoreCase((cStart), str.charAt(end))) {      // Checking the comparison between first and last character of string for Palindrome condition
-                break;                               // Exit from loop as soon a mismatch is found (PalinDromic)              }  end-- ;                                /* Decrement index */    start++;}                            return true;      }}                             else {return false;}}                        Return 'true' if string length %2 == 0 & only first half of the strings are same, otherwise it will be a Palindrome.
-```                                                                    ^       / \  ``  ''''''_) (__    .';` `.-/..-.+-.)'. ''--('.      -./ ..///. ' '. ',.' :'  `(('\        ,'((\') (\()) (.',,'(( ((, ('.\'/
+
+public boolean isPalindrome(String str) {
+    int start = 0;
+        if ((str == null) || (start >= str.length())){
+            return true;
+    }
+        while (start < end) {
+            char cStart = Character.toLowerCase(str.charAt(start));
+                if (!Character.equalsIgnoreCase((cStart), str.charAt(end))) {
+                break;
+            }  end-- ;

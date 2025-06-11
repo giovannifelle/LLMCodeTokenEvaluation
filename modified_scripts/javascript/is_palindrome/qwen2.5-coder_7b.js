@@ -1,4 +1,4 @@
-```javascript
+
 function isPalindrome(s) {
     s = s.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
     let left = 0;
@@ -10,4 +10,3 @@ function isPalindrome(s) {
     }
     return true;
 }
-```

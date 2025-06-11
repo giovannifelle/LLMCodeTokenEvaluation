@@ -1,4 +1,4 @@
-```scala
+
 def binarySearch(arr: Array[Int], target: Int): Option[Int] = {
   var left = 0
   var right = arr.length - 1
@@ -13,4 +13,3 @@ def binarySearch(arr: Array[Int], target: Int): Option[Int] = {
 
   None
 }
-```

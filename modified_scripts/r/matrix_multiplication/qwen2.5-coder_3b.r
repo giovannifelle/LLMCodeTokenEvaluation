@@ -1,4 +1,3 @@
-```r
 
 mat_mult <- function(A, B) {
   nrow_A <- nrow(A)
@@ -22,4 +21,3 @@ mat_mult <- function(A, B) {
   
   return(C)
 }
-```

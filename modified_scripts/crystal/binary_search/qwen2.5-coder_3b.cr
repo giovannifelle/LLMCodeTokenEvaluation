@@ -1,4 +1,4 @@
-```crystal
+
 def binary_search(arr, target)
   left, right = 0, arr.size - 1
 
@@ -16,4 +16,3 @@ def binary_search(arr, target)
 
   nil
 end
-```

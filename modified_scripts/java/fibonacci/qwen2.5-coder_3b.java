@@ -1,4 +1,4 @@
-```java
+
 public class Fibonacci {
     public static long fib(int n) {
         if (n <= 1) return n;
@@ -11,4 +11,3 @@ public class Fibonacci {
         return b;
     }
 }
-```

@@ -1,5 +1,4 @@
-Crystal
-```crystal
+
 def matrix_multiplication(a, b)
   a.rows == b.cols ? a.cols == b.rows : error("Matrix dimensions do not match")
   result = Array.new(a.rows, Array.new(b.cols))
@@ -12,4 +11,3 @@ def matrix_multiplication(a, b)
   end
   result
 end
-```
