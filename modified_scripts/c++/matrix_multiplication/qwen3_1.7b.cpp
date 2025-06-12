@@ -1,4 +1,3 @@
-#include <vector>
 
 std::vector<std::vector<int>> matrix_mult(const std::vector<std::vector<int>>& a, const std::vector<std::vector<int>>& b) {
     int rows_a = a.size(), cols_a = a[0].size(), rows_b = b.size(), cols_b = b[0].size();

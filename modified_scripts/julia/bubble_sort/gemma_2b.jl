@@ -1,4 +1,4 @@
-```julia
+
 function bubble_sort(nums)
     for i = 1, length(nums)
         for j = i, length(nums)
@@ -16,4 +16,3 @@ function swap(nums, i, j)
     nums[i] = nums[j]
     nums[j] = temp
 end
-```

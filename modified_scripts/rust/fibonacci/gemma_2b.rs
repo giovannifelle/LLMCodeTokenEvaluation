@@ -1,4 +1,4 @@
-```rust
+
 fn fibonacci(n: u32) -> u32 {
     if n == 0 {
         return 0;
@@ -7,4 +7,3 @@ fn fibonacci(n: u32) -> u32 {
     }
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
-```

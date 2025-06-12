@@ -1,4 +1,3 @@
-```julia
 function is_palindrome(string)
     n = length(string)
     center = floor(n/2)
@@ -8,4 +7,3 @@ function is_palindrome(string)
     end
     return(true)
 end
-```

@@ -1,4 +1,4 @@
-```rust
+
 fn bubble_sort(arr: &mut [i32]) {
     let mut swapped = true;
     while swapped {
@@ -11,4 +11,3 @@ fn bubble_sort(arr: &mut [i32]) {
         }
     }
 }
-```

@@ -1,4 +1,4 @@
-```julia
+
 function bubble_sort(arr)
     n = length(arr)
     for i in 1:n-1
@@ -14,4 +14,3 @@ function bubble_sort(arr)
         end
     end
 end
-```

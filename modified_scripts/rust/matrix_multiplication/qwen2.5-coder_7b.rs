@@ -1,4 +1,4 @@
-```rust
+
 fn matrix_multiplication(a: &Vec<Vec<i32>>, b: &Vec<Vec<i32>>) -> Vec<Vec<i32>> {
     let rows_a = a.len();
     let cols_a = a[0].len();
@@ -19,4 +19,3 @@ fn matrix_multiplication(a: &Vec<Vec<i32>>, b: &Vec<Vec<i32>>) -> Vec<Vec<i32>> 
 
     result
 }
-```

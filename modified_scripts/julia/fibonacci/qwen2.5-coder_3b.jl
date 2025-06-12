@@ -1,6 +1,4 @@
-Certainly! Here is the pure source code for the Fibonacci algorithm in Julia:
 
-```julia
 function fib(n)
     if n <= 0
         return 0
@@ -14,4 +12,3 @@ function fib(n)
         return b
     end
 end
-```

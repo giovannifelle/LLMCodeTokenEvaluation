@@ -2,6 +2,7 @@ import os
 from transformers import AutoTokenizer
 from huggingface_hub import login
 from dotenv import load_dotenv
+from config import ALGORITHMS
 
 # Carica le variabili d'ambiente dal file .env
 load_dotenv()
@@ -11,24 +12,7 @@ hf_token = os.getenv("HF_API_KEY")
 login(token=hf_token)
 
 
-MODELS = [
-    "deepseek-coder:1.3b",
-    "deepseek-coder:6.7b",
-    "qwen3:1.7b",
-    "qwen3:8b",
-    "qwen2.5-coder:3b",
-    "qwen2.5-coder:7b",
-    "gemma:2b",
-    "gemma:7b",
-]
 
-ALGORITHMS = [
-    "bubble_sort",
-    "binary_search",
-    "fibonacci",
-    "matrix_multiplication",
-    "is_palindrome",
-]
 
 model_url = {
     "deepseek-coder:1.3b": "deepseek-ai/deepseek-coder-1.3b-base",
@@ -61,28 +45,31 @@ def count_tokens_in_file(filepath, tokenizer):
         print(f"Error processing file {filepath}: {e}")
         return None
 
-def calculate_token_counts(python_folder):
-    print(f"\n\nProcessando per {python_folder}")
-    if not os.path.isdir(python_folder):
-        print(f"Folder '{python_folder}' not found. Skipping.")
-        return
+def calculate_token_counts(folder_path):
+    dir_path=os.path.dirname(folder_path)
+    with open(f"{dir_path}/tokens_count_{dir_path.split('/')[-1]}.txt", 'a') as f:
+        f.write(f"\n\nProcessando per {folder_path}\n")
+        if not os.path.isdir(folder_path):
+            f.write(f"Folder '{folder_path}' not found. Skipping.\n")
+            return
 
-    for filename in os.listdir(python_folder):
-        if filename.endswith(".py"):
-            model_name_from_file = filename[:-3].replace("_", ":")
-            if model_name_from_file in tokenizers:
-                tokenizer = tokenizers[model_name_from_file]
-                if tokenizer:
-                    filepath = os.path.join(python_folder, filename)
-                    token_count = count_tokens_in_file(filepath, tokenizer)
-                    if token_count is not None:
-                        print(f"{filename} (Model: {model_name_from_file}): {token_count} tokens")
+        for filename in os.listdir(folder_path):
+            if filename.endswith(".cpp"):
+                model_name_from_file = filename[:-4].replace("_", ":")
+                if model_name_from_file in tokenizers:
+                    tokenizer = tokenizers[model_name_from_file]
+                    if tokenizer:
+                        filepath = os.path.join(folder_path, filename)
+                        token_count = count_tokens_in_file(filepath, tokenizer)
+                        if token_count is not None:
+                            f.write(f"{filename} (Model: {model_name_from_file}): {token_count} tokens\n")
 
 
 def main():
     for alg in ALGORITHMS:
-        python_folder_path = os.path.join("scripts_modified", "python", alg)
-        calculate_token_counts(python_folder_path)
+        folder_path = os.path.join("modified_scripts", "c++", alg)
+        calculate_token_counts(folder_path)
 
 if __name__ == "__main__":
     main()
+

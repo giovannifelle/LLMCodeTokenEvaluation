@@ -1,4 +1,4 @@
-```julia
+
 function matrix_multiplication(A::Matrix{Float64}, B::Matrix{Float64})::Matrix{Float64}
     C = zeros(size(A, 1), size(B, 2))
     for i in 1:size(A, 1)
@@ -10,4 +10,3 @@ function matrix_multiplication(A::Matrix{Float64}, B::Matrix{Float64})::Matrix{F
     end
     return C
 end
-```

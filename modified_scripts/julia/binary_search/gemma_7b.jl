@@ -1,4 +1,4 @@
-```julia
+
 function binary_search(arr, target)
     low = 1
     high = length(arr)
@@ -16,4 +16,3 @@ function binary_search(arr, target)
 
     return -1
 end
-```

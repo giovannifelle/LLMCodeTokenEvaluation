@@ -1,4 +1,4 @@
-```rust
+
 fn bubble_sort(arr: &mut [i32]) {
     for i in 0..(arr.len() - 1) {
         for j in 0..(arr.len() - i - 1) {
@@ -8,4 +8,3 @@ fn bubble_sort(arr: &mut [i32]) {
         }
     }
 }
-```

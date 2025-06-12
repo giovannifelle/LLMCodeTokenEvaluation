@@ -1,4 +1,4 @@
-```rust
+
 fn fibonacci(n: usize) -> usize {
     let mut a = 0usize;
     let mut b = 1usize;
@@ -9,4 +9,3 @@ fn fibonacci(n: usize) -> usize {
     }
     b
 }
-```

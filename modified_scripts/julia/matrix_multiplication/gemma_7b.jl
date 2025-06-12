@@ -1,4 +1,4 @@
-```julia
+
 function matrix_multiplication(A, B)
     if size(A, 2) !== size(B, 1)
         throw("Matrices are not compatible for multiplication")
@@ -13,4 +13,3 @@ function matrix_multiplication(A, B)
     end
     return C
 end
-```

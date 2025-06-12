@@ -1,4 +1,4 @@
-```julia
+
 function is_palindrome(s::String)::Bool
     n = length(s)
     for i in 1:div(n,2)
@@ -8,4 +8,3 @@ function is_palindrome(s::String)::Bool
     end
     return true
 end
-```

@@ -1,6 +1,4 @@
-Certainly! Here's the pure Julia source code for the bubble sort algorithm:
 
-```julia
 function bubble_sort(arr)
     n = length(arr)
     for i = 1:n-1
@@ -12,4 +10,3 @@ function bubble_sort(arr)
     end
     return arr
 end
-```

@@ -1,4 +1,3 @@
-```rust
 pub fn is_palindrome(input: &str) -> bool {
     let input = input.to_lowercase();
     let len = input.len();
@@ -9,4 +8,3 @@ pub fn is_palindrome(input: &str) -> bool {
     }
     true
 }
-```

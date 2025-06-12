@@ -28,4 +28,4 @@ function multiplyMatrices(a, b) {
     } else {if (!(rowsA instanceof Array && (typeof b === 'object') || rowsB !== typeof colM)) throw new Error('Matrix multiplication requires equal number and type to be compatible');
     result[a] = ((rowsA === 1 && b === c) || rowsB > a.length)?((colsM > 2?b:c):false); 
     }; if (!rowsA && ((colsM > 2)?b:c)) throw new Error('Matrix multiplication requires at least one matrix'); 
-}` }    /*End of pure source code for Javascript*/ `!DOCTYPE html>\n<html lang="en-US\" > \n <head> <meta charset = "UTF -8" /></title>  'Matrix Multiplication'  <style (contenteditable=true, h1)css:;h2{color:#369;} p { color :# 5A0DAD} a:link ,a：visited，a：hover、a链接的样式在这里没有包含在内。
+}` }    `!DOCTYPE html>\n<html lang="en-US\" > \n <head> <meta charset = "UTF -8" /></title>  'Matrix Multiplication'  <style (contenteditable=true, h1)css:;h2{color:#369;} p { color :# 5A0DAD} a:link ,a：visited，a：hover、a链接的样式在这里没有包含在内。

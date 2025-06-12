@@ -1,0 +1,55 @@
+
+
+Processando per modified_scripts/java/bubble_sort
+deepseek-coder_1.3b.java (Model: deepseek-coder:1.3b): 148 tokens
+qwen3_1.7b.java (Model: qwen3:1.7b): 114 tokens
+qwen3_8b.java (Model: qwen3:8b): 114 tokens
+gemma_7b.java (Model: gemma:7b): 136 tokens
+qwen2.5-coder_3b.java (Model: qwen2.5-coder:3b): 119 tokens
+qwen2.5-coder_7b.java (Model: qwen2.5-coder:7b): 107 tokens
+deepseek-coder_6.7b.java (Model: deepseek-coder:6.7b): 131 tokens
+gemma_2b.java (Model: gemma:2b): 131 tokens
+
+
+Processando per modified_scripts/java/binary_search
+deepseek-coder_1.3b.java (Model: deepseek-coder:1.3b): 175 tokens
+qwen3_1.7b.java (Model: qwen3:1.7b): 103 tokens
+qwen3_8b.java (Model: qwen3:8b): 116 tokens
+gemma_7b.java (Model: gemma:7b): 136 tokens
+qwen2.5-coder_3b.java (Model: qwen2.5-coder:3b): 108 tokens
+qwen2.5-coder_7b.java (Model: qwen2.5-coder:7b): 120 tokens
+deepseek-coder_6.7b.java (Model: deepseek-coder:6.7b): 139 tokens
+gemma_2b.java (Model: gemma:2b): 134 tokens
+
+
+Processando per modified_scripts/java/fibonacci
+deepseek-coder_1.3b.java (Model: deepseek-coder:1.3b): 172 tokens
+qwen3_1.7b.java (Model: qwen3:1.7b): 45 tokens
+qwen3_8b.java (Model: qwen3:8b): 73 tokens
+gemma_7b.java (Model: gemma:7b): 57 tokens
+qwen2.5-coder_3b.java (Model: qwen2.5-coder:3b): 81 tokens
+qwen2.5-coder_7b.java (Model: qwen2.5-coder:7b): 85 tokens
+deepseek-coder_6.7b.java (Model: deepseek-coder:6.7b): 80 tokens
+gemma_2b.java (Model: gemma:2b): 58 tokens
+
+
+Processando per modified_scripts/java/matrix_multiplication
+deepseek-coder_1.3b.java (Model: deepseek-coder:1.3b): 267 tokens
+qwen3_1.7b.java (Model: qwen3:1.7b): 152 tokens
+qwen3_8b.java (Model: qwen3:8b): 130 tokens
+gemma_7b.java (Model: gemma:7b): 158 tokens
+qwen2.5-coder_3b.java (Model: qwen2.5-coder:3b): 149 tokens
+qwen2.5-coder_7b.java (Model: qwen2.5-coder:7b): 155 tokens
+deepseek-coder_6.7b.java (Model: deepseek-coder:6.7b): 223 tokens
+gemma_2b.java (Model: gemma:2b): 167 tokens
+
+
+Processando per modified_scripts/java/is_palindrome
+deepseek-coder_1.3b.java (Model: deepseek-coder:1.3b): 105 tokens
+qwen3_1.7b.java (Model: qwen3:1.7b): 75 tokens
+qwen3_8b.java (Model: qwen3:8b): 123 tokens
+gemma_7b.java (Model: gemma:7b): 49 tokens
+qwen2.5-coder_3b.java (Model: qwen2.5-coder:3b): 68 tokens
+qwen2.5-coder_7b.java (Model: qwen2.5-coder:7b): 68 tokens
+deepseek-coder_6.7b.java (Model: deepseek-coder:6.7b): 93 tokens
+gemma_2b.java (Model: gemma:2b): 35 tokens

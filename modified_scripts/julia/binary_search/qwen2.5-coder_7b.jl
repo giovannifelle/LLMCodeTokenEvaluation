@@ -1,4 +1,4 @@
-```julia
+
 function binary_search(arr::Vector{T}, x::T) where T
     low = 1
     high = length(arr)
@@ -14,4 +14,3 @@ function binary_search(arr::Vector{T}, x::T) where T
     end
     return -1
 end
-```

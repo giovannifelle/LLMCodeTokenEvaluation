@@ -1,18 +1,16 @@
-Here is the source code for a recursive implementation of Fibonacci in Scala without comments and with no inputs/outputs as it's not necessary to show how you can call this function (it always starts from 0, but if needed different values then pass them). Just include `fib` at top:
-```scala
+
 object fib {
    def main(args: Array[String]) ={
-      println("Fibonacci value for first position is " + fib(1)) //call the function with 0 as input and it will give you Fibunaci result of that postion. For e.g, if we call `fib` method then use arguement '3' so its calling like this: println("Fibonacci value for third position is " + fib(2))
-      //then pass the argument as per requirement and see their result in console screen  . If you want to get different values call function repeatedly.    
+      println("Fibonacci value for first position is " + fib(1)) 
+      
    }   
         
  def fib (n : Int) : Int = {             #define a method 'fib' that takes one parameter, n of type Integer which is an integer for FIBONACCI SERIES and returns another int result i.e., the calculated value  . For example if we call `Fib(3), it will calculate fibonacci series by calling itself to get previous two numbers then add them up as per position in our sequence
      n match {                           #match case for 'n' ,it is used only with pattern matching feature provided scala.
-       //base cases: when the input value 0 or less than zero => throw IllegalArgumentException("Input must be a non-negative integer.")    . if we pass negative number it will give us error at compile time, you can remove these part too and program would work fine for positive integers but in recursive case.
-        //base cases: when the input value 0 or less than zero => throw IllegalArgumentException("Input must be a non-negative integer.")    . if we pass negative number it will give us error at compile time, you can remove these part too and program would work fine for positive integers but in recursive case.
-        | 0 => 0                          #base cases: when the input is 0 => return zero   //when n=1 then result = 0+fib(2)=> fibonacci series's third term ie, 'n'. For example if we call `Fib(3), it will calculate "th"term of FIBONACCI SERIES by calling itself to get previous two numbers and add them up as per position in our sequence.
+       
+        
+        | 0 => 0                          #base cases: when the input is 0 => return zero   
         | 1 => 1                          #when the input is 2 => return one    .For e, fib (0)=>Fibonacci series's first term ie,'n'. So if we call `fib(3), it will calculate "first"term of FIBONACCI SERIES by calling itself to get previous two numbers and add them up as per position in our sequence.
         | _ => fib (n - 1) + fib (n-2 ) #the recursive case: when the input is greater than one, then call `fib` method on parameters n minus both ones with decreasing values of 'n' till it reaches base cases ie zero or negative numbers and return result.
-     }    //end match   .Ends here...  ...it continues for rest of code which will not work correctly if this is removed as the function won’t compile now..and you can add more logic in your main method to call it repeatedly with different inputs until user decides quit condition,like fib(0) or while true loop
-} //Ends here...  ...it continues for rest of code which will not work correctly if this is removed as the function won’t compile now..and you can add more logic in your main method to call it repeatedly with different inputs until user decides quit condition,like fib(0) or while true loop
-```     //Ends here...  ...it continues for rest of code which will not work correctly if this is removed as the function won’t compile now..and you can add more logic in your main method to call it repeatedly with different inputs until user decides quit condition,like fib(0) or while true loop
+     }    
+} 

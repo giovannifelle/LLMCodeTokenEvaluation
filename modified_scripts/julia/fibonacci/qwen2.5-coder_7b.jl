@@ -1,4 +1,3 @@
-```julia
 function fib(n)
     a, b = 0, 1
     for i in 1:n
@@ -6,4 +5,3 @@ function fib(n)
     end
     return a
 end
-```

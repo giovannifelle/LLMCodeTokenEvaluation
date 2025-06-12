@@ -1,0 +1,55 @@
+
+
+Processando per modified_scripts/julia/bubble_sort
+qwen3_1.7b.jl (Model: qwen3:1.7b): 73 tokens
+qwen2.5-coder_7b.jl (Model: qwen2.5-coder:7b): 75 tokens
+qwen3_8b.jl (Model: qwen3:8b): 74 tokens
+gemma_2b.jl (Model: gemma:2b): 119 tokens
+deepseek-coder_1.3b.jl (Model: deepseek-coder:1.3b): 126 tokens
+gemma_7b.jl (Model: gemma:7b): 92 tokens
+deepseek-coder_6.7b.jl (Model: deepseek-coder:6.7b): 111 tokens
+qwen2.5-coder_3b.jl (Model: qwen2.5-coder:3b): 77 tokens
+
+
+Processando per modified_scripts/julia/binary_search
+qwen3_1.7b.jl (Model: qwen3:1.7b): 89 tokens
+qwen2.5-coder_7b.jl (Model: qwen2.5-coder:7b): 97 tokens
+qwen3_8b.jl (Model: qwen3:8b): 91 tokens
+gemma_2b.jl (Model: gemma:2b): 98 tokens
+deepseek-coder_1.3b.jl (Model: deepseek-coder:1.3b): 79 tokens
+gemma_7b.jl (Model: gemma:7b): 97 tokens
+deepseek-coder_6.7b.jl (Model: deepseek-coder:6.7b): 113 tokens
+qwen2.5-coder_3b.jl (Model: qwen2.5-coder:3b): 89 tokens
+
+
+Processando per modified_scripts/julia/fibonacci
+qwen3_1.7b.jl (Model: qwen3:1.7b): 48 tokens
+qwen2.5-coder_7b.jl (Model: qwen2.5-coder:7b): 43 tokens
+qwen3_8b.jl (Model: qwen3:8b): 37 tokens
+gemma_2b.jl (Model: gemma:2b): 55 tokens
+deepseek-coder_1.3b.jl (Model: deepseek-coder:1.3b): 450 tokens
+gemma_7b.jl (Model: gemma:7b): 37 tokens
+deepseek-coder_6.7b.jl (Model: deepseek-coder:6.7b): 27 tokens
+qwen2.5-coder_3b.jl (Model: qwen2.5-coder:3b): 74 tokens
+
+
+Processando per modified_scripts/julia/matrix_multiplication
+qwen3_1.7b.jl (Model: qwen3:1.7b): 110 tokens
+qwen2.5-coder_7b.jl (Model: qwen2.5-coder:7b): 113 tokens
+qwen3_8b.jl (Model: qwen3:8b): 92 tokens
+gemma_2b.jl (Model: gemma:2b): 129 tokens
+deepseek-coder_1.3b.jl (Model: deepseek-coder:1.3b): 84 tokens
+gemma_7b.jl (Model: gemma:7b): 145 tokens
+deepseek-coder_6.7b.jl (Model: deepseek-coder:6.7b): 146 tokens
+qwen2.5-coder_3b.jl (Model: qwen2.5-coder:3b): 152 tokens
+
+
+Processando per modified_scripts/julia/is_palindrome
+qwen3_1.7b.jl (Model: qwen3:1.7b): 16 tokens
+qwen2.5-coder_7b.jl (Model: qwen2.5-coder:7b): 57 tokens
+qwen3_8b.jl (Model: qwen3:8b): 60 tokens
+gemma_2b.jl (Model: gemma:2b): 66 tokens
+deepseek-coder_1.3b.jl (Model: deepseek-coder:1.3b): 102 tokens
+gemma_7b.jl (Model: gemma:7b): 29 tokens
+deepseek-coder_6.7b.jl (Model: deepseek-coder:6.7b): 66 tokens
+qwen2.5-coder_3b.jl (Model: qwen2.5-coder:3b): 15 tokens

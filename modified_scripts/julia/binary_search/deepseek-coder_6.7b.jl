@@ -1,4 +1,4 @@
-```julia
+
 function binary_search(arr::Array{T}, target::T) where T <: Number
     low = 1
     high = length(arr)
@@ -17,4 +17,3 @@ function binary_search(arr::Array{T}, target::T) where T <: Number
     
     return false
 end
-```

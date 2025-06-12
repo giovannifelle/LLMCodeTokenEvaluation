@@ -1,4 +1,4 @@
-```rust
+
 fn binary_search<T: Ord>(arr: &[T], target: &T) -> Option<usize> {
     let mut left = 0;
     let mut right = arr.len() - 1;
@@ -17,4 +17,3 @@ fn binary_search<T: Ord>(arr: &[T], target: &T) -> Option<usize> {
     
     None
 }
-```

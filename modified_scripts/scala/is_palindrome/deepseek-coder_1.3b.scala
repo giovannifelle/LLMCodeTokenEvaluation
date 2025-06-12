@@ -1,12 +1,10 @@
-Here is the source code for `isPalindrome` algorithm in Scala without including comments and documentation strings as requested by your request (without #s):
-```scala
-def is_palindrome(x : Int) : Boolean = {  // define a function that takes an integer, returns boolean. It'll return true if the number itself or its reversed part equals to it else false ie palindromic integers in Scala start from -2147483648 upwards
-    var y : Int = x  // copy value of `x` into variable 'y'. We need this for later on. Because we are going backward, and if the number equals to it's reverse then yes (palindromic), so when reversed means that original order is maintained eiher from start or end
-    var rev : Int = 0 // declare a integer `rev` as 0 initially because by convention palindrome should be non-negative. It will store the resultant value of reverse operation after each iteration through loop until we've reached to x (original number). For negative numbers, if it is not positive then return false
-    while(y > 1) { // start a While Loop that runs till y greater than 0 and condition met i.e., the palindrome cannot be less or equals by one due constraints of Integer datatype in Scala (inclusive). It means for negative numbers, it will not make sense to check if x is positive hence we use `y > 1` instead
-        rev = ((rev * 10) + y % 10); // calculate reverse and assign the last digit from number 'x' into reversed integer. This operation has O(log n base 10), because it simply multiplies by ten, adds current remainder (last bit of x).
-        y = y / 10;// then we use floor division to remove this last significant bit and continue our loop until number is less than or equal with one. This effectively reverses the numbers leading digit at each iteration step from right side till left end ie `x` becomes zero, in which case function returns true
-    }  // End of while Loop for checking palindrome Integer's digits order and also return reverse resultant value back to caller. No need explanation here as required by the task requirement ¯\_(ツ)_/¯ Please continue with your actual code if you want!  
-     rev;  // Return reversed integer from function scope, this will be boolean true or false for palindrome case and can only return back to caller. Your explanation must come later after the while loop is finished as per requirement of task ¯\_(ツ)_/¯
-}// End Function Definition with it's declaration at end ✔️  ☺‍💨 Happy Coding! 🎉 :)
-``` // Explanation can only be done after understanding the code and how to run this. In case you don’t understand, then there is no need for explanations in source codes too
+
+def is_palindrome(x : Int) : Boolean = {  
+    var y : Int = x  
+    var rev : Int = 0 
+    while(y > 1) { 
+        rev = ((rev * 10) + y % 10); 
+        y = y / 10;
+    }  
+     rev;  
+}

@@ -1,6 +1,4 @@
-Sure, here is the source code for a simple matrix multiplication algorithm in Rust without comments and documentation:
 
-```rust
 pub fn matrix_multiplication(a: &Vec<Vec<f64>>, b: &Vec<Vec<f64>>) -> Vec<Vec<f64>> {
     let a_rows = a.len();
     let a_cols = a[0].len();
@@ -18,5 +16,3 @@ pub fn matrix_multiplication(a: &Vec<Vec<f64>>, b: &Vec<Vec<f64>>) -> Vec<Vec<f6
     
     result
 }
-```
-This code defines the `matrix_multiplication` function which multiplies two matrices and returns the resulting matrix. It assumes that the input matrices are of valid dimensions for multiplication (i.e., the number of columns in the first matrix is equal to the number of rows in the second). The type of elements in the matrices is f64, but you can change this to any numeric type that implements the necessary traits.

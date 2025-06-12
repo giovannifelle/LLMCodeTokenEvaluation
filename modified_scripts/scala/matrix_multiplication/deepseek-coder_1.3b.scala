@@ -1,12 +1,10 @@
-Here's the source code for matrix multiplication in Scala without using comments and with all details omitted except defining a two-dimensional array data structure to represent matrices A & B which get multiplied together into product C when called as `multiplyMatrices(A,B)` where Matrix is defined like:
-```scala  
-type Mat = Array[Array[Double]]  // Two dimensional matrix. Double represents the type of elements in this array (double for precision). A and B will be two such arrays representing matrices hereafter named as above...   1st element refers to first row, second ->second column ,third-> 3rd columns etc
-```  
-And below is your code: 
+ 
+type Mat = Array[Array[Double]] 
+
     
-```scala      // Matrix multiplication in Scala. This multiplies A and B (2D arrays). Assume that they are of same dimensions for this example        1st element refers to first row, second ->second column ,third-> 3rd columns etc    For simplicity we use '+' operator instead if you want a different operation replace it with the one required by your application.
-def multiplyMatrices(A: Mat, B: Mat): Mat = {  // declare function declaration here and define type of arguments to be matrices as defined above...    1st element refers to first row  2nd -> second column   3rd->  third columns etc ...      A &B are the input parameters for this operation (matrices).
-A.zip(B).map{ case (aRow, bRow) => aRow.zip(bRow).map(_ * _)}     // zip both matrices and multiply each element in row by their corresponding column  1st -> first matrix's 2nd->  second matix’s
-```         A function declaration is done here but the details of implementation like multiplication operation, creation/initialization (if any) are not shown. All operations must be handled programmatically and we use map to achieve this purpose in each row separately for matrices `A` & `B` .zip() combines two arrays into pairs ,* (_ * _ ) multiplies the pair values together... 
-    // The function returns a new array where all elements are product of corresponding entries from original matrix A's rows and B’S columns.   It is just returning an Array[Array], we can use for-comprehensions or map to achieve this purpose in Scala, these operations will be done separately at each row... 
-    // This function assumes that matrices are of same dimensions ie numberOfRows(A) ==numberofrows (B), and similarly the columns. If you want a different behavior for unequal size matrix case replace it with your logic or use Array[Array] to represent such cases as well, but again this is not shown in given scenario...
+
+def multiplyMatrices(A: Mat, B: Mat): Mat = {  
+A.zip(B).map{ case (aRow, bRow) => aRow.zip(bRow).map(_ * _)}     
+
+
+ 

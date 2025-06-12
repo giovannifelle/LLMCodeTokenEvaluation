@@ -1,0 +1,55 @@
+
+
+Processando per modified_scripts/javascript/bubble_sort
+qwen3_8b.js (Model: qwen3:8b): 106 tokens
+gemma_7b.js (Model: gemma:7b): 112 tokens
+qwen2.5-coder_3b.js (Model: qwen2.5-coder:3b): 101 tokens
+deepseek-coder_6.7b.js (Model: deepseek-coder:6.7b): 125 tokens
+qwen2.5-coder_7b.js (Model: qwen2.5-coder:7b): 107 tokens
+gemma_2b.js (Model: gemma:2b): 118 tokens
+deepseek-coder_1.3b.js (Model: deepseek-coder:1.3b): 126 tokens
+qwen3_1.7b.js (Model: qwen3:1.7b): 104 tokens
+
+
+Processando per modified_scripts/javascript/binary_search
+qwen3_8b.js (Model: qwen3:8b): 93 tokens
+gemma_7b.js (Model: gemma:7b): 125 tokens
+qwen2.5-coder_3b.js (Model: qwen2.5-coder:3b): 107 tokens
+deepseek-coder_6.7b.js (Model: deepseek-coder:6.7b): 115 tokens
+qwen2.5-coder_7b.js (Model: qwen2.5-coder:7b): 105 tokens
+gemma_2b.js (Model: gemma:2b): 119 tokens
+deepseek-coder_1.3b.js (Model: deepseek-coder:1.3b): 134 tokens
+qwen3_1.7b.js (Model: qwen3:1.7b): 106 tokens
+
+
+Processando per modified_scripts/javascript/fibonacci
+qwen3_8b.js (Model: qwen3:8b): 71 tokens
+gemma_7b.js (Model: gemma:7b): 46 tokens
+qwen2.5-coder_3b.js (Model: qwen2.5-coder:3b): 74 tokens
+deepseek-coder_6.7b.js (Model: deepseek-coder:6.7b): 82 tokens
+qwen2.5-coder_7b.js (Model: qwen2.5-coder:7b): 71 tokens
+gemma_2b.js (Model: gemma:2b): 46 tokens
+deepseek-coder_1.3b.js (Model: deepseek-coder:1.3b): 124 tokens
+qwen3_1.7b.js (Model: qwen3:1.7b): 50 tokens
+
+
+Processando per modified_scripts/javascript/matrix_multiplication
+qwen3_8b.js (Model: qwen3:8b): 158 tokens
+gemma_7b.js (Model: gemma:7b): 209 tokens
+qwen2.5-coder_3b.js (Model: qwen2.5-coder:3b): 181 tokens
+deepseek-coder_6.7b.js (Model: deepseek-coder:6.7b): 165 tokens
+qwen2.5-coder_7b.js (Model: qwen2.5-coder:7b): 119 tokens
+gemma_2b.js (Model: gemma:2b): 105 tokens
+deepseek-coder_1.3b.js (Model: deepseek-coder:1.3b): 864 tokens
+qwen3_1.7b.js (Model: qwen3:1.7b): 152 tokens
+
+
+Processando per modified_scripts/javascript/is_palindrome
+qwen3_8b.js (Model: qwen3:8b): 58 tokens
+gemma_7b.js (Model: gemma:7b): 26 tokens
+qwen2.5-coder_3b.js (Model: qwen2.5-coder:3b): 63 tokens
+deepseek-coder_6.7b.js (Model: deepseek-coder:6.7b): 83 tokens
+qwen2.5-coder_7b.js (Model: qwen2.5-coder:7b): 77 tokens
+gemma_2b.js (Model: gemma:2b): 22 tokens
+deepseek-coder_1.3b.js (Model: deepseek-coder:1.3b): 185 tokens
+qwen3_1.7b.js (Model: qwen3:1.7b): 18 tokens

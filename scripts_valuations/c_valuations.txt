@@ -1,0 +1,54 @@
+bubble_sort
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		1		Codice errato e fuori contesto.
+qwen3_8b				1		Sintassi completamente errata.
+qwen2_5-coder_3b		5		✅
+qwen3_1_7b				3		Uso errato di swap() non definito e non funzionante.
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_7b		5		✅
+gemma_2b				5		✅
+gemma_7b				5		✅
+
+binary_search
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		5		✅
+qwen3_8b				5		✅
+qwen2_5-coder_3b		5		✅
+qwen3_1_7b				5		✅
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_7b		5		✅
+gemma_2b				5		✅
+gemma_7b				5		✅
+
+fibonacci
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		1		Codice incompleto, sintassi e logica errata
+qwen3_8b				4		Errore sintassi, funzione duplicata, manca ;
+qwen2_5-coder_3b		5		✅ ricorsiva
+qwen3_1_7b				5		✅ iterativa
+deepseek-coder_6_7b		2		Stampa serie di numeri, non ritorna valore corretto
+qwen2_5-coder_7b		5		✅ iterativa
+gemma_2b				5		✅ ricorsiva
+gemma_7b				5		✅ ricorsiva
+
+matrix_multiplication
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		1		Codice incompleto e non compilabile, contiene caratteri non validi.
+qwen3_8b				2		Implementazione statica con matrici hardcoded, non una funzione generica
+qwen2_5-coder_3b		5		✅
+qwen3_1_7b				3		Errori nell’indicizzazione degli array e mancanza di parametri, risultato compromesso.
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_7b		5		✅
+gemma_2b				2		Restituisce array locale, tipo di ritorno scorretto.
+gemma_7b				3		Mancata inizializzazione delle celle di c prima dell’uso.
+
+is_palindrome
+Modello                Punteggio  Commento                                           
+deepseek-coder_1_3b  	1          Codice non compilabile, errori sintattici gravi   
+qwen3_8b              	5          ✅                                                 
+qwen2_5-coder_3b     	5          ✅                                                 
+qwen3_1_7b           	3          Variabile `n` modificata, confronto finale errato, restituisce sempre falso
+deepseek-coder_6_7b  	5          ✅                                                 
+qwen2_5-coder_7b     	5          ✅                                                 
+gemma_2b              	5          ✅                                                 
+gemma_7b              	4          `len` calcolato male viene sottratto -1, impatta sul confronto       

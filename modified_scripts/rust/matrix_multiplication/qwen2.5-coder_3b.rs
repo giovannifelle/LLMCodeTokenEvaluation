@@ -1,4 +1,4 @@
-```rust
+
 fn matrix_multiply(a: &[[i32; 4]; 4], b: &[[i32; 4]; 4]) -> [[i32; 4]; 4] {
     let mut result = [[0; 4]; 4];
     for i in 0..4 {
@@ -10,4 +10,3 @@ fn matrix_multiply(a: &[[i32; 4]; 4], b: &[[i32; 4]; 4]) -> [[i32; 4]; 4] {
     }
     result
 }
-```

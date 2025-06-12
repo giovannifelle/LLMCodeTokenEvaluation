@@ -1,4 +1,4 @@
-```rust
+
 pub fn bubble_sort<T: Ord>(arr: &mut [T]) {
     let n = arr.len();
     for _ in 0..n {
@@ -9,10 +9,8 @@ pub fn bubble_sort<T: Ord>(arr: &mut [T]) {
                 swapped = true;
             }
         }
-        // If no two elements were swapped by inner loop, then break
         if !swapped {
             break;
         }
     }
 }
-```

@@ -1,0 +1,43 @@
+bubble_sort
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		5		✅
+qwen2_5-coder_3b		5		✅
+deepseek-coder_6_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				5		✅
+gemma_7b				5		✅
+qwen2_5-coder_7b		5		✅
+qwen3_1_7b				5		✅
+
+binary_search
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		4		 Usa vector<T> ma T non è dichiarato come parametro template ⇒ errore di compilazione.
+qwen2_5-coder_3b		5		✅ Ricorsivo, corretto in logica e sintassi.
+deepseek-coder_6_7b		5		✅ Ricorsivo, parametrico con template. Corretto.
+qwen3_8b				5		✅ Iterativo, corretto in logica e sintassi.
+gemma_2b				3		Usa right = n, ma in C++ l’ultimo indice valido è n-1. Potenziale accesso out-of-bounds.
+gemma_7b				5		✅ Iterativo, corretto. Usa low e high, chiaro e standard.
+qwen2_5-coder_7b		5		✅ Iterativo, corretto. Parametrizzazione esplicita.
+qwen3_1_7b				2		Funzione void, non restituisce il risultato. Inoltre, se value non è trovato, comportamento indefinito.
+
+fibonacci
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		1		Codice inutilizzabile, errori sintattici gravi e logica confusa.
+qwen2_5-coder_3b		5		✅
+deepseek-coder_6_7b		5		✅
+qwen3_8b				4		Manca un ; al return.
+gemma_2b				5		✅
+gemma_7b				5		✅
+qwen2_5-coder_7b		5		✅
+qwen3_1_7b				5		✅
+
+matrix_multiplication
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		1		Codice incompleto, manca corpo della funzione
+qwen2_5-coder_3b		4		errore nel controllo dimensioni: rowsB non dichiarato (manca in input).
+deepseek-coder_6_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				5		✅ (limitato a matrici 3x3)
+gemma_7b				3		Mancata inizializzazione della matrice risultato
+qwen2_5-coder_7b		5		✅
+qwen3_1_7b				5		✅

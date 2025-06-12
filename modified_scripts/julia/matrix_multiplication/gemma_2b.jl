@@ -1,4 +1,4 @@
-```julia
+
 function matrix_multiplication(matrix1, matrix2)
     result = zeros(size(matrix1, 1), size(matrix2, 1))
     for i = 1:size(matrix1, 1)
@@ -10,4 +10,3 @@ function matrix_multiplication(matrix1, matrix2)
     end
     return result
 end
-```

@@ -1,0 +1,55 @@
+
+
+Processando per modified_scripts/crystal/bubble_sort
+qwen2.5-coder_7b.cr (Model: qwen2.5-coder:7b): 81 tokens
+qwen3_1.7b.cr (Model: qwen3:1.7b): 91 tokens
+qwen3_8b.cr (Model: qwen3:8b): 76 tokens
+deepseek-coder_6.7b.cr (Model: deepseek-coder:6.7b): 105 tokens
+gemma_2b.cr (Model: gemma:2b): 116 tokens
+deepseek-coder_1.3b.cr (Model: deepseek-coder:1.3b): 160 tokens
+gemma_7b.cr (Model: gemma:7b): 109 tokens
+qwen2.5-coder_3b.cr (Model: qwen2.5-coder:3b): 73 tokens
+
+
+Processando per modified_scripts/crystal/binary_search
+qwen2.5-coder_7b.cr (Model: qwen2.5-coder:7b): 109 tokens
+qwen3_1.7b.cr (Model: qwen3:1.7b): 96 tokens
+qwen3_8b.cr (Model: qwen3:8b): 96 tokens
+deepseek-coder_6.7b.cr (Model: deepseek-coder:6.7b): 109 tokens
+gemma_2b.cr (Model: gemma:2b): 28 tokens
+deepseek-coder_1.3b.cr (Model: deepseek-coder:1.3b): 106 tokens
+gemma_7b.cr (Model: gemma:7b): 121 tokens
+qwen2.5-coder_3b.cr (Model: qwen2.5-coder:3b): 90 tokens
+
+
+Processando per modified_scripts/crystal/fibonacci
+qwen2.5-coder_7b.cr (Model: qwen2.5-coder:7b): 71 tokens
+qwen3_1.7b.cr (Model: qwen3:1.7b): 39 tokens
+qwen3_8b.cr (Model: qwen3:8b): 27 tokens
+deepseek-coder_6.7b.cr (Model: deepseek-coder:6.7b): 42 tokens
+gemma_2b.cr (Model: gemma:2b): 37 tokens
+deepseek-coder_1.3b.cr (Model: deepseek-coder:1.3b): 204 tokens
+gemma_7b.cr (Model: gemma:7b): 42 tokens
+qwen2.5-coder_3b.cr (Model: qwen2.5-coder:3b): 37 tokens
+
+
+Processando per modified_scripts/crystal/matrix_multiplication
+qwen2.5-coder_7b.cr (Model: qwen2.5-coder:7b): 144 tokens
+qwen3_1.7b.cr (Model: qwen3:1.7b): 105 tokens
+qwen3_8b.cr (Model: qwen3:8b): 114 tokens
+deepseek-coder_6.7b.cr (Model: deepseek-coder:6.7b): 205 tokens
+gemma_2b.cr (Model: gemma:2b): 0 tokens
+deepseek-coder_1.3b.cr (Model: deepseek-coder:1.3b): 255 tokens
+gemma_7b.cr (Model: gemma:7b): 171 tokens
+qwen2.5-coder_3b.cr (Model: qwen2.5-coder:3b): 122 tokens
+
+
+Processando per modified_scripts/crystal/is_palindrome
+qwen2.5-coder_7b.cr (Model: qwen2.5-coder:7b): 20 tokens
+qwen3_1.7b.cr (Model: qwen3:1.7b): 14 tokens
+qwen3_8b.cr (Model: qwen3:8b): 13 tokens
+deepseek-coder_6.7b.cr (Model: deepseek-coder:6.7b): 27 tokens
+gemma_2b.cr (Model: gemma:2b): 68 tokens
+deepseek-coder_1.3b.cr (Model: deepseek-coder:1.3b): 214 tokens
+gemma_7b.cr (Model: gemma:7b): 27 tokens
+qwen2.5-coder_3b.cr (Model: qwen2.5-coder:3b): 16 tokens

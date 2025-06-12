@@ -1,4 +1,4 @@
-```rust
+
 fn matrix_multiplication(
     matrix1: Vec<Vec<f64>>,
     matrix2: Vec<Vec<f64>>,
@@ -24,4 +24,3 @@ fn matrix_multiplication(
 
     result
 }
-```

@@ -1,4 +1,4 @@
-```rust
+
 fn binary_search(target: u32, arr: &[u32]) -> i32 {
     let low = 0;
     let high = arr.len();
@@ -16,4 +16,3 @@ fn binary_search(target: u32, arr: &[u32]) -> i32 {
 
     -1
 }
-```

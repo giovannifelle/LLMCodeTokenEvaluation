@@ -1,6 +1,4 @@
-Certainly! Here is a pure source code for the matrix multiplication algorithm in Julia:
 
-```julia
 function multiply_matrices(A::Matrix{Float64}, B::Matrix{Float64})::Matrix{Float64}
     rows_A, cols_A = size(A)
     rows_B, cols_B = size(B)
@@ -21,4 +19,3 @@ function multiply_matrices(A::Matrix{Float64}, B::Matrix{Float64})::Matrix{Float
 
     return C
 end
-```

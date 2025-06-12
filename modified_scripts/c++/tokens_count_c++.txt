@@ -1,0 +1,57 @@
+
+
+Processando per modified_scripts/c++/bubble_sort
+deepseek-coder_1.3b.cpp (Model: deepseek-coder:1.3b): 126 tokens
+qwen2.5-coder_3b.cpp (Model: qwen2.5-coder:3b): 87 tokens
+deepseek-coder_6.7b.cpp (Model: deepseek-coder:6.7b): 115 tokens
+qwen3_8b.cpp (Model: qwen3:8b): 101 tokens
+gemma_2b.cpp (Model: gemma:2b): 127 tokens
+gemma_7b.cpp (Model: gemma:7b): 103 tokens
+qwen2.5-coder_7b.cpp (Model: qwen2.5-coder:7b): 96 tokens
+qwen3_1.7b.cpp (Model: qwen3:1.7b): 100 tokens
+
+
+Processando per modified_scripts/c++/binary_search
+deepseek-coder_1.3b.cpp (Model: deepseek-coder:1.3b): 132 tokens
+qwen2.5-coder_3b.cpp (Model: qwen2.5-coder:3b): 107 tokens
+deepseek-coder_6.7b.cpp (Model: deepseek-coder:6.7b): 129 tokens
+qwen3_8b.cpp (Model: qwen3:8b): 108 tokens
+gemma_2b.cpp (Model: gemma:2b): 123 tokens
+gemma_7b.cpp (Model: gemma:7b): 126 tokens
+qwen2.5-coder_7b.cpp (Model: qwen2.5-coder:7b): 86 tokens
+qwen3_1.7b.cpp (Model: qwen3:1.7b): 96 tokens
+
+
+Processando per modified_scripts/c++/fibonacci
+deepseek-coder_1.3b.cpp (Model: deepseek-coder:1.3b): 177 tokens
+qwen2.5-coder_3b.cpp (Model: qwen2.5-coder:3b): 72 tokens
+deepseek-coder_6.7b.cpp (Model: deepseek-coder:6.7b): 38 tokens
+qwen3_8b.cpp (Model: qwen3:8b): 34 tokens
+gemma_2b.cpp (Model: gemma:2b): 63 tokens
+gemma_7b.cpp (Model: gemma:7b): 46 tokens
+qwen2.5-coder_7b.cpp (Model: qwen2.5-coder:7b): 56 tokens
+qwen3_1.7b.cpp (Model: qwen3:1.7b): 77 tokens
+
+
+Processando per modified_scripts/c++/matrix_multiplication
+deepseek-coder_1.3b.cpp (Model: deepseek-coder:1.3b): 109 tokens
+qwen2.5-coder_3b.cpp (Model: qwen2.5-coder:3b): 162 tokens
+deepseek-coder_6.7b.cpp (Model: deepseek-coder:6.7b): 150 tokens
+qwen3_8b.cpp (Model: qwen3:8b): 353 tokens
+gemma_2b.cpp (Model: gemma:2b): 127 tokens
+gemma_7b.cpp (Model: gemma:7b): 161 tokens
+qwen2.5-coder_7b.cpp (Model: qwen2.5-coder:7b): 224 tokens
+qwen3_1.7b.cpp (Model: qwen3:1.7b): 170 tokens
+
+
+Processando per modified_scripts/c++/is_palindrome
+deepseek-coder_1.3b.cpp (Model: deepseek-coder:1.3b): 133 tokens
+qwen2.5-coder_3b.cpp (Model: qwen2.5-coder:3b): 67 tokens
+deepseek-coder_6.7b.cpp (Model: deepseek-coder:6.7b): 86 tokens
+qwen3_8b.cpp (Model: qwen3:8b): 67 tokens
+gemma_2b.cpp (Model: gemma:2b): 91 tokens
+gemma_7b.cpp (Model: gemma:7b): 76 tokens
+qwen2.5-coder_7b.cpp (Model: qwen2.5-coder:7b): 69 tokens
+qwen3_1.7b.cpp (Model: qwen3:1.7b): 69 tokens
+
+

@@ -1,4 +1,4 @@
-```rust
+
 fn binary_search(arr: &[i32], target: i32) -> usize {
     let mut low = 0usize;
     let mut high = arr.len() - 1usize;
@@ -17,4 +17,3 @@ fn binary_search(arr: &[i32], target: i32) -> usize {
 
     -1usize
 }
-```

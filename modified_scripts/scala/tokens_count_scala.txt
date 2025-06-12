@@ -1,0 +1,55 @@
+
+
+Processando per modified_scripts/scala/bubble_sort
+qwen3_1.7b.scala (Model: qwen3:1.7b): 91 tokens
+deepseek-coder_6.7b.scala (Model: deepseek-coder:6.7b): 126 tokens
+qwen2.5-coder_7b.scala (Model: qwen2.5-coder:7b): 129 tokens
+gemma_2b.scala (Model: gemma:2b): 134 tokens
+qwen3_8b.scala (Model: qwen3:8b): 92 tokens
+gemma_7b.scala (Model: gemma:7b): 157 tokens
+deepseek-coder_1.3b.scala (Model: deepseek-coder:1.3b): 231 tokens
+qwen2.5-coder_3b.scala (Model: qwen2.5-coder:3b): 117 tokens
+
+
+Processando per modified_scripts/scala/binary_search
+qwen3_1.7b.scala (Model: qwen3:1.7b): 99 tokens
+deepseek-coder_6.7b.scala (Model: deepseek-coder:6.7b): 114 tokens
+qwen2.5-coder_7b.scala (Model: qwen2.5-coder:7b): 111 tokens
+gemma_2b.scala (Model: gemma:2b): 123 tokens
+qwen3_8b.scala (Model: qwen3:8b): 99 tokens
+gemma_7b.scala (Model: gemma:7b): 122 tokens
+deepseek-coder_1.3b.scala (Model: deepseek-coder:1.3b): 125 tokens
+qwen2.5-coder_3b.scala (Model: qwen2.5-coder:3b): 103 tokens
+
+
+Processando per modified_scripts/scala/fibonacci
+qwen3_1.7b.scala (Model: qwen3:1.7b): 34 tokens
+deepseek-coder_6.7b.scala (Model: deepseek-coder:6.7b): 89 tokens
+qwen2.5-coder_7b.scala (Model: qwen2.5-coder:7b): 66 tokens
+gemma_2b.scala (Model: gemma:2b): 57 tokens
+qwen3_8b.scala (Model: qwen3:8b): 30 tokens
+gemma_7b.scala (Model: gemma:7b): 60 tokens
+deepseek-coder_1.3b.scala (Model: deepseek-coder:1.3b): 351 tokens
+qwen2.5-coder_3b.scala (Model: qwen2.5-coder:3b): 40 tokens
+
+
+Processando per modified_scripts/scala/matrix_multiplication
+qwen3_1.7b.scala (Model: qwen3:1.7b): 172 tokens
+deepseek-coder_6.7b.scala (Model: deepseek-coder:6.7b): 299 tokens
+qwen2.5-coder_7b.scala (Model: qwen2.5-coder:7b): 148 tokens
+gemma_2b.scala (Model: gemma:2b): 140 tokens
+qwen3_8b.scala (Model: qwen3:8b): 155 tokens
+gemma_7b.scala (Model: gemma:7b): 139 tokens
+deepseek-coder_1.3b.scala (Model: deepseek-coder:1.3b): 71 tokens
+qwen2.5-coder_3b.scala (Model: qwen2.5-coder:3b): 160 tokens
+
+
+Processando per modified_scripts/scala/is_palindrome
+qwen3_1.7b.scala (Model: qwen3:1.7b): 17 tokens
+deepseek-coder_6.7b.scala (Model: deepseek-coder:6.7b): 40 tokens
+qwen2.5-coder_7b.scala (Model: qwen2.5-coder:7b): 19 tokens
+gemma_2b.scala (Model: gemma:2b): 25 tokens
+qwen3_8b.scala (Model: qwen3:8b): 14 tokens
+gemma_7b.scala (Model: gemma:7b): 17 tokens
+deepseek-coder_1.3b.scala (Model: deepseek-coder:1.3b): 85 tokens
+qwen2.5-coder_3b.scala (Model: qwen2.5-coder:3b): 17 tokens
