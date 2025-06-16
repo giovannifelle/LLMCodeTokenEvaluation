@@ -1,5 +1,5 @@
 
-# ['gemma_2b'] CODE
+# gemma_2b CODE
 
 def matrix_multiplication(matrix1, matrix2):
     result_matrix = []
@@ -13,7 +13,7 @@ def matrix_multiplication(matrix1, matrix2):
         result_matrix.append([row1[-1] for row1 in matrix1])
     return result_matrix
 
-# ['qwen3_8b'] CODE
+# qwen3_8b CODE
 def matrix_mult(a, b):
     n = len(a)
     m = len(b[0])
@@ -24,7 +24,7 @@ def matrix_mult(a, b):
             for k in range(p):
                 result[i][j] += a[i][k] * b[k][j]
     return result
-# ['deepseek-coder_1', '3b'] CODE
+# deepseek-coder_1_3b CODE
 def multiply(matrix1, matrix2): 
     rows_A = len(matrix1)                 
     cols_B  =len(matrix2[0])   
@@ -36,7 +36,7 @@ def multiply(matrix1, matrix2):
             res[i][k] += matrix1[i][j] * matrix2[j][k]  if j=='all'(or no indexing, depending on requirements and when using a loop inside the condition. This is to allow rows for first MAtrix A with columns of second Matrix B.)
     return res     
 
-# ['qwen2', '5-coder_3b'] CODE
+# qwen2_5-coder_3b CODE
 
 def matrix_multiply(A, B):
     if len(A[0]) != len(B):
@@ -51,10 +51,10 @@ def matrix_multiply(A, B):
     
     return result
 
-# ['qwen3_1', '7b'] CODE
+# qwen3_1_7b CODE
 def matrix_mult(a, b):
     return [[sum(a[row][col - i] for row in range(len(a))) for col in range(len(b[0]))] for i in range(len(a))]
-# ['qwen2', '5-coder_7b'] CODE
+# qwen2_5-coder_7b CODE
 
 def matrix_multiplication(a, b):
     result = [[0 for _ in range(len(b[0]))] for _ in range(len(a))]
@@ -64,7 +64,7 @@ def matrix_multiplication(a, b):
                 result[i][j] += a[i][k] * b[k][j]
     return result
 
-# ['deepseek-coder_6', '7b'] CODE
+# deepseek-coder_6_7b CODE
 
 
 def matrix_multiplication(A, B):
@@ -79,7 +79,7 @@ def matrix_multiplication(A, B):
         result.append(row)
     return result
 
-# ['gemma_7b'] CODE
+# gemma_7b CODE
 
 def matrix_multiplication(matrix1, matrix2):
     if len(matrix1[0]) != len(matrix2):

@@ -1,0 +1,54 @@
+bubble_sort
+Modello				Punteggio	Commento
+qwen3_8b				5		✅
+gemma_7b				5		✅
+qwen2_5-coder_3b		5		✅
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_7b		5		✅
+gemma_2b				5		✅ Funziona, ma c'è un'imprecisione nel range del ciclo interno (manca la - i).
+deepseek-coder_1_3b		1		Codice inutilizzabile.
+qwen3_1_7b				5		✅
+
+binary_search
+Modello				Punteggio	Commento
+qwen3_8b				5		✅
+gemma_7b				5		✅
+qwen2_5-coder_3b		5		✅
+deepseek-coder_6_7b		3		Restituisce true/false invece dell'indice.
+qwen2_5-coder_7b		5		✅
+gemma_2b				2		mid non è intero e high fuori range (arr.length).
+deepseek-coder_1_3b		1		Codice inutilizzabile.
+qwen3_1_7b				5		✅
+
+fibonacci
+Modello				Punteggio	Commento
+qwen3_8b				5		✅
+gemma_7b				5		✅
+qwen2_5-coder_3b		5		✅
+deepseek-coder_6_7b		3		if (n <= 2) return 1; quindi f(0)=1, ma è sbagliato nella logica della serie di Fibonacci
+qwen2_5-coder_7b		5		✅ Perfetto.
+gemma_2b				5		✅
+deepseek-coder_1_3b		1		Codice inutilizzabile.
+qwen3_1_7b				2		Loop infinito, return mai raggiunto.
+
+matrix_multiplication
+Modello				Punteggio	Commento
+qwen3_8b				5		✅
+gemma_7b				5		✅
+qwen2_5-coder_3b		5		✅
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_7b		5		✅
+gemma_2b				1		Calcolo sbagliato + proprietà non esistenti (matrixA.rows).
+deepseek-coder_1_3b		1		Codice totalmente corrotto, con frammenti HTML e logica incomprensibile.
+qwen3_1_7b				5		✅
+
+is_palindrome
+Modello				Punteggio	Commento
+qwen3_8b				5		✅ 
+gemma_7b				5		✅ 
+qwen2_5-coder_3b		5		✅ 
+deepseek-coder_6_7b		5		✅ 
+qwen2_5-coder_7b		5		✅ 
+gemma_2b				3		Restituisce la stringa reverse, non un booleano
+deepseek-coder_1_3b		1		Codice inutilizzabile.
+qwen3_1_7b				5		✅ 

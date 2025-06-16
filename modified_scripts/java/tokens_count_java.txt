@@ -5,7 +5,7 @@ deepseek-coder_1.3b.java (Model: deepseek-coder:1.3b): 148 tokens
 qwen3_1.7b.java (Model: qwen3:1.7b): 114 tokens
 qwen3_8b.java (Model: qwen3:8b): 114 tokens
 gemma_7b.java (Model: gemma:7b): 136 tokens
-qwen2.5-coder_3b.java (Model: qwen2.5-coder:3b): 119 tokens
+qwen2.5-coder_3b.java (Model: qwen2.5-coder:3b): 107 tokens
 qwen2.5-coder_7b.java (Model: qwen2.5-coder:7b): 107 tokens
 deepseek-coder_6.7b.java (Model: deepseek-coder:6.7b): 131 tokens
 gemma_2b.java (Model: gemma:2b): 131 tokens

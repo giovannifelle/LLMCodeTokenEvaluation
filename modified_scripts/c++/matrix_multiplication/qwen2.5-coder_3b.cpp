@@ -1,7 +1,7 @@
 
 
 int** multiplyMatrices(int** A, int** B, int rowsA, int colsA, int colsB) {
-    if (colsA != rowsB) return nullptr; // Check for valid matrix multiplication dimensions
+    if (colsA != rowsB) return nullptr;
     
     int** result = new int*[rowsA];
     for (int i = 0; i < rowsA; ++i) {

@@ -1,0 +1,56 @@
+bubble_sort
+Modello				Punteggio	Commento
+qwen2_5-coder_3b		3		Errore: argument is of length zero, dovuto a for (j in 1:(n-i-1)), in R n-i-1 se diventa 0 da errore
+gemma_2b				5		✅
+qwen3_8b				3		Errore: argument is of length zero, dovuto a for (j in 1:(n-i-1)), in R n-i se diventa 0 da errore
+deepseek-coder_1_3b		1		Sintassi non valida, errore grave su assegnazione multipla.
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_7b		5		✅
+gemma_7b				1		(i in 1:length(arr) - 1) risulta essere un errore, inoltre lo swap errato produce sovrascrizione che impedisce ordinamento corretto.
+qwen3_1_7b				0		Codice scritto in un altro linguaggio
+
+binary_search
+Modello				Punteggio	Commento
+qwen2_5-coder_3b		5		✅
+gemma_2b				5		✅
+qwen3_8b				5		✅
+deepseek-coder_1_3b		1		Codice incompleto e non compilabile
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_7b		5		✅
+gemma_7b				5		✅
+qwen3_1_7b				0		Codice scritto in un altro linguaggio
+
+fibonacci
+Modello				Punteggio	Commento
+qwen2_5-coder_3b		5		✅
+gemma_2b				1		Codice non funzione, manca output e input parametrizzato
+qwen3_8b				5		✅
+deepseek-coder_1_3b		0		Codice assente
+deepseek-coder_6_7b		3		Funziona, presenta lievi errori logici di implementazione dell'algoritmo
+qwen2_5-coder_7b		5		✅
+gemma_7b				5		✅
+qwen3_1_7b				0		Codice scritto in un altro linguaggio
+
+matrix_multiplication
+Modello				Punteggio	Commento
+qwen2_5-coder_3b		5		✅ 
+gemma_2b				1		Codice inutilizzabile, presenza di (...)
+qwen3_8b				5		✅
+deepseek-coder_1_3b		1		Codice inutilizzabile
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_7b		5		✅ 
+gemma_7b				5		✅
+qwen3_1_7b				0		Codice scritto in un altro linguaggio
+
+is_palindrome	
+Modello				Punteggio	Commento
+qwen2_5-coder_3b		2		Logica del ciclo errata, restituisce sempre TRUE
+gemma_2b				1		Funzione reverse() non esiste in R
+qwen3_8b				2		Confronta stringa con vettore, sempre FALSE
+deepseek-coder_1_3b		1		Usa reverse() non definita
+deepseek-coder_6_7b		2		rev(str) su stringa dà risultato errato, sempre TRUE
+qwen2_5-coder_7b		5		✅
+gemma_7b				2		Confronto con rev(string) sempre TRUE
+
+
+

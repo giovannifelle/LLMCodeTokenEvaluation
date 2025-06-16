@@ -1,7 +1,7 @@
 import os
 from config import ALGORITHMS, LANGUAGES
 
-language="c++"
+language="r"
 def read_content(input_path):
     try:
         with open(input_path, 'r', encoding='utf-8') as f:
@@ -18,14 +18,14 @@ def merge_content_from_different_files(folder_path, output_path):
             content = read_content(input_path)
             if content is not None:
                 with open(output_path, 'a') as f:
-                    f.write(f"\n// {'_'.join(filename.split('.')[:-1])} CODE\n")
+                    f.write(f"\n# {'_'.join(filename.split('.')[:-1])} CODE\n")
                     f.write(content)
 
 def main():
     print(language)
-    folder=ALGORITHMS[3]
+    folder=ALGORITHMS[4]
     folder_path = f'./modified_scripts/{language}/{folder}'
-    output_path = f'./modified_scripts/{language}/merged_scripts/merged_{folder}.c'
+    output_path = f'./modified_scripts/{language}/merged_scripts/merged_{folder}.{LANGUAGES[language]}'
     merge_content_from_different_files(folder_path, output_path)
 
 if __name__ == "__main__":

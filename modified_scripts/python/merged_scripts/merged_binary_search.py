@@ -1,5 +1,5 @@
 
-# ['gemma_2b'] CODE
+# gemma_2b CODE
 
 def binary_search(nums, target):
     left = 0
@@ -18,7 +18,7 @@ def binary_search(nums, target):
 
     return -1
 
-# ['qwen3_8b'] CODE
+# qwen3_8b CODE
 def binary_search(arr, x):
     low = 0
     high = len(arr) - 1
@@ -31,7 +31,7 @@ def binary_search(arr, x):
         else:
             high = mid - 1
     return -1
-# ['deepseek-coder_1', '3b'] CODE
+# deepseek-coder_1_3b CODE
 
 def binary_search(arr, low, high, x):    
      
@@ -48,7 +48,7 @@ def binary_search(arr, low, high, x):
                  
     else:               return -1      
 
-# ['qwen2', '5-coder_3b'] CODE
+# qwen2_5-coder_3b CODE
 
 def binary_search(nums, target):
     left, right = 0, len(nums) - 1
@@ -62,7 +62,7 @@ def binary_search(nums, target):
             right = mid - 1
     return -1
 
-# ['qwen3_1', '7b'] CODE
+# qwen3_1_7b CODE
 def binary_search(arr, x):
     left = 0
     right = len(arr) - 1
@@ -75,7 +75,7 @@ def binary_search(arr, x):
         else:
             right = mid - 1
     return -1
-# ['qwen2', '5-coder_7b'] CODE
+# qwen2_5-coder_7b CODE
 
 def binary_search(arr, target):
     low = 0
@@ -92,7 +92,7 @@ def binary_search(arr, target):
 
     return -1
 
-# ['deepseek-coder_6', '7b'] CODE
+# deepseek-coder_6_7b CODE
 
 def binary_search(array, target):
     low = 0
@@ -109,7 +109,7 @@ def binary_search(array, target):
             
     return -1
 
-# ['gemma_7b'] CODE
+# gemma_7b CODE
 
 def binary_search(arr, target):
     low = 0

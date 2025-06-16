@@ -1,5 +1,4 @@
 
-
 Processando per modified_scripts/c++/bubble_sort
 deepseek-coder_1.3b.cpp (Model: deepseek-coder:1.3b): 126 tokens
 qwen2.5-coder_3b.cpp (Model: qwen2.5-coder:3b): 87 tokens
@@ -35,7 +34,7 @@ qwen3_1.7b.cpp (Model: qwen3:1.7b): 77 tokens
 
 Processando per modified_scripts/c++/matrix_multiplication
 deepseek-coder_1.3b.cpp (Model: deepseek-coder:1.3b): 109 tokens
-qwen2.5-coder_3b.cpp (Model: qwen2.5-coder:3b): 162 tokens
+qwen2.5-coder_3b.cpp (Model: qwen2.5-coder:3b): 155 tokens
 deepseek-coder_6.7b.cpp (Model: deepseek-coder:6.7b): 150 tokens
 qwen3_8b.cpp (Model: qwen3:8b): 353 tokens
 gemma_2b.cpp (Model: gemma:2b): 127 tokens
@@ -53,5 +52,3 @@ gemma_2b.cpp (Model: gemma:2b): 91 tokens
 gemma_7b.cpp (Model: gemma:7b): 76 tokens
 qwen2.5-coder_7b.cpp (Model: qwen2.5-coder:7b): 69 tokens
 qwen3_1.7b.cpp (Model: qwen3:1.7b): 69 tokens
-
-

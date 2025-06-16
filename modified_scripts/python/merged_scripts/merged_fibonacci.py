@@ -1,5 +1,5 @@
 
-# ['gemma_2b'] CODE
+# gemma_2b CODE
 
 def fibonacci(n):
 
@@ -10,20 +10,20 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 
-# ['qwen3_8b'] CODE
+# qwen3_8b CODE
 def fibonacci(n):
     a b = 0 1
     for _ in range(n):
         a b = b a + b
     return a
-# ['deepseek-coder_1', '3b'] CODE
+# deepseek-coder_1_3b CODE
 def fib(n):  
     if n <= 1:     
        return n     
     else :          
         return fib(n-1) + fib(n-2);    
 
-# ['qwen2', '5-coder_3b'] CODE
+# qwen2_5-coder_3b CODE
 
 def fib(n):
     if n <= 0:
@@ -36,13 +36,13 @@ def fib(n):
             a, b = b, a + b
         return b
 
-# ['qwen3_1', '7b'] CODE
+# qwen3_1_7b CODE
 def fib(n):
     a, b = 0, 1
     for _ in range(n):
         a, b = b, a + b
     return a
-# ['qwen2', '5-coder_7b'] CODE
+# qwen2_5-coder_7b CODE
 
 def fibonacci(n):
     a, b = 0, 1
@@ -50,7 +50,7 @@ def fibonacci(n):
         a, b = b, a + b
     return a
 
-# ['deepseek-coder_6', '7b'] CODE
+# deepseek-coder_6_7b CODE
 def fibonacci(n):
     if n <= 0:
         return []
@@ -63,7 +63,7 @@ def fibonacci(n):
         while len(sequence) < n:
             sequence.append(sequence[-1] + sequence[-2])
         return sequence
-# ['gemma_7b'] CODE
+# gemma_7b CODE
 
 def fib(n):
     if n < 2:

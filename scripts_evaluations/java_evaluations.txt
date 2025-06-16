@@ -1,0 +1,54 @@
+bubble_sort
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		1		Codice inutilizzabile, errori gravi sintattici
+qwen3_1_7b				5		✅
+qwen3_8b				5		✅
+gemma_7b				5		✅
+qwen2_5-coder_3b		5		✅
+qwen2_5-coder_7b		5		✅
+deepseek-coder_6_7b		5		✅
+gemma_2b				5		✅
+
+binary_search
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		5		✅
+qwen3_1_7b				3		Variabile target non definita nel metodo
+qwen3_8b				5		✅
+gemma_7b				5		✅
+qwen2_5-coder_3b		5		✅
+qwen2_5-coder_7b		5		✅
+deepseek-coder_6_7b		5		✅
+gemma_2b				3		Estremo superiore inizializzato a arr.length (fuori limite)
+
+fibonacci
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		1		Codice inutilizzabile: sintassi corrotta, simboli non validi
+qwen3_1_7b				5		✅
+qwen3_8b				3		Nessuna stampa o ritorno del risultato
+gemma_7b				5		✅
+qwen2_5-coder_3b		5		✅
+qwen2_5-coder_7b		5		✅
+deepseek-coder_6_7b		5		✅
+gemma_2b				5		✅
+
+matrix_multiplication
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		1		Codice danneggiato, logica e sintassi errate
+qwen3_1_7b				2		Implementazione statica con matrici hardcoded, non una funzione generica. Manca la stampa/ritorno
+qwen3_8b				5		✅
+gemma_7b				5		✅
+qwen2_5-coder_3b		5		✅ 
+qwen2_5-coder_7b		5		✅ 
+deepseek-coder_6_7b		5		✅ 
+gemma_2b				5		✅ 
+
+is_palindrome
+Modello				Punteggio	Commento
+deepseek-coder_1_3b		1		Codice inutilizzabile
+qwen3_1_7b				5		✅ 
+qwen3_8b				5		✅ 
+gemma_7b				5		✅ 
+qwen2_5-coder_3b		5		✅ 
+qwen2_5-coder_7b		5		✅ 
+deepseek-coder_6_7b		5		✅ 
+gemma_2b				2		str.reverse() non esiste
