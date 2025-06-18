@@ -1,0 +1,54 @@
+bubble_sort
+Modello					Punteggio	Commento
+qwen2_5-coder_7b			4		.length in Crystal è errato, .size è corretto
+qwen3_1_7b					0		Codice scritto in Ruby, non Crystal
+qwen3_8b					5		✅
+deepseek-coder_6_7b			4		.length in Crystal è errato, .size è corretto
+gemma_2b					0		Pseudocodice, non Crystal
+deepseek-coder_1_3b			1		Codice inutilizzabile, sintassi completamente errata
+gemma_7b					0		Codice scritto in Rust, non Crystal
+qwen2_5-coder_3b			1		Codice inutilizzabile, sintassi completamente errata
+
+binary_search
+Modello					Punteggio	Commento
+qwen2_5-coder_7b			4		.length in Crystal è errato, .size è corretto. Errore nella divisione / invece di //
+qwen3_1_7b					4		.length in Crystal è errato, .size è corretto. Errore nella divisione / invece di //
+qwen3_8b					4		Errore nella divisione / invece di //
+deepseek-coder_6_7b			1		Codice inutilizzabile, sintassi errata
+gemma_2b					1		inutilizzabile, richiama una funzione inesistente
+deepseek-coder_1_3b			1		Sintassi completamente errata
+gemma_7b					0		Codice in Rust, non Crystal
+qwen2_5-coder_3b			4		Errore nella divisione / invece di //
+
+fibonacci
+Modello					Punteggio	Commento
+qwen2_5-coder_7b			5		✅ 
+qwen3_1_7b					3		Usa fib() al posto di fibonacci(), sbagliando la ricorsione
+qwen3_8b					5		✅ 
+deepseek-coder_6_7b			5		✅
+gemma_2b					4		Manca end finale	
+deepseek-coder_1_3b			1		Codice inutilizzabile, sintassi errata
+gemma_7b					5		✅ 
+qwen2_5-coder_3b			5		✅ 
+
+matrix_multiplication
+Modello					Punteggio	Commento
+qwen2_5-coder_7b			5		✅ 
+qwen3_1_7b					1		Sintassi incorretta
+qwen3_8b					5		✅
+deepseek-coder_6_7b			5		✅ Ottima struttura, validazione dimensioni
+gemma_2b					0		Codice in Python, non Crystal
+deepseek-coder_1_3b			1		Codice inutilizzabile, sintassi errata
+gemma_7b					1		Codice inutilizzabile, sintassi errata
+qwen2_5-coder_3b			5		✅
+
+is_palindrome
+Modello					Punteggio	Commento
+qwen2_5-coder_7b			5		✅
+qwen3_1_7b					5		✅
+qwen3_8b					5		✅
+deepseek-coder_6_7b			5		✅
+gemma_2b					1		Codice inutilizzabile: sintassi non valida in Crystal
+deepseek-coder_1_3b			1		Codice inutilizzabile: sintassi non valida in Crystal
+gemma_7b					0		Codice in Rust, non in Crystal.
+qwen2_5-coder_3b			5		✅

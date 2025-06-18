@@ -54,8 +54,8 @@ def calculate_token_counts(folder_path):
             return
 
         for filename in os.listdir(folder_path):
-            if filename.endswith(".java"):
-                model_name_from_file = filename[:-5].replace("_", ":")
+            if filename.endswith(".cr"):
+                model_name_from_file = filename[:-3].replace("_", ":")
                 if model_name_from_file in tokenizers:
                     tokenizer = tokenizers[model_name_from_file]
                     if tokenizer:
@@ -67,7 +67,7 @@ def calculate_token_counts(folder_path):
 
 def main():
     for alg in ALGORITHMS:
-        folder_path = os.path.join("modified_scripts", "java", alg)
+        folder_path = os.path.join("modified_scripts", "crystal", alg)
         calculate_token_counts(folder_path)
 
 if __name__ == "__main__":

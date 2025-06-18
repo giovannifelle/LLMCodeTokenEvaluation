@@ -12,7 +12,7 @@ qwen2_5-coder_3b		5		✅
 binary_search
 Modello				Punteggio	Commento
 qwen3_1_7b				5		✅
-deepseek-coder_6_7b		5		✅
+deepseek-coder_6_7b		3		Restituisce true/false invece del valore
 qwen2_5-coder_7b		5		✅
 gemma_2b				5		✅
 qwen3_8b				5		✅

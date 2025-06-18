@@ -1,0 +1,54 @@
+bubble_sort
+Modello				Punteggio	Commento
+qwen3_1_7b				5		✅
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				2		Logica completamente sbagliata: non ordina l'array e va in BoundsError
+deepseek-coder_1_3b		1		Codice inutilizzabile: errori gravi di sintassi (range, end, i undefined)
+gemma_7b				5		✅
+deepseek-coder_6_7b		5		✅ manca return arr ma non è richiesto
+qwen2_5-coder_3b		3		L'intervallo 1:n-i-1 causa mancata iterazione completa nel bubble sort
+
+binary_search
+Modello				Punteggio	Commento
+qwen3_1_7b				5		✅
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅ (Restituisce 0 invece di -1 quando non trova l’elemento in Julia è accettabile)
+gemma_2b				1		Sintassi non valida (floor restituisce Float64, mancano end, return errato)
+deepseek-coder_1_3b		1		Codice inutilizzabile
+gemma_7b				5		✅
+deepseek-coder_6_7b		3		Restituisce true/false anziché l'indice; comportamento non standard
+qwen2_5-coder_3b		5		✅
+
+fibonacci
+Modello				Punteggio	Commento
+qwen3_1_7b				5		✅
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				5		✅
+deepseek-coder_1_3b		1		Codice non utilizzabile: sintassi scorretta, uso errato di //, manca parametro n
+gemma_7b				5		✅ (senza indentazione)
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_3b		5		✅
+
+matrix_multiplication
+Modello				Punteggio	Commento
+qwen3_1_7b				3		Errore: l'indice j va da 1:p, non 1:n
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				2		Errore: dimensione risultato size(matrix2, 1) sbagliata. Dovrebbe essere size(matrix2, 2)
+deepseek-coder_1_3b		1		Codice incompleto. Privo di senso
+gemma_7b				5		✅
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_3b		5		✅
+
+is_palindrome
+Modello				Punteggio	Commento
+qwen3_1_7b				5		✅ 
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅ 
+gemma_2b				1		Errore di indicizzazione: string[n - i] produce un string[0]. Inoltre presenta ulteriori errori
+deepseek-coder_1_3b		1		Codice inutilizzabile
+gemma_7b				3		rev(str) è un errore (rev non esiste in Julia; è reverse) errore semantico
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_3b		5		✅ 
