@@ -1,7 +1,7 @@
 import os
 from config import ALGORITHMS, LANGUAGES
 
-language="julia"
+language="rust"
 def read_content(input_path):
     try:
         with open(input_path, 'r', encoding='utf-8') as f:

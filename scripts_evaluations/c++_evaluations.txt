@@ -40,7 +40,7 @@ qwen3_8b				5		✅
 gemma_2b				5		✅ (limitato a matrici 3x3)
 gemma_7b				3		Mancata inizializzazione della matrice risultato
 qwen2_5-coder_7b		5		✅
-qwen3_1_7b				5		✅
+qwen3_1_7b				5		✅ (Componente riempimento matrice non richiesta)
 
 is_palindrome
 Modello				Punteggio	Commento

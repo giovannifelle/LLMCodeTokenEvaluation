@@ -1,0 +1,53 @@
+bubble_sort
+Modello				Punteggio	Commento
+gemma_7b				5		✅
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_3b		5		✅
+deepseek-coder_1_3b		3		Ordinamento decrescente per errore di confronto
+qwen3_1_7b				3		Argomento vettore errato
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				3		Funzione swap inesistente
+
+binary_search
+Modello				Punteggio	Commento
+gemma_7b				3		Uso errato di -1usize, comportamento indefinito
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_3b		5		✅
+deepseek-coder_1_3b		1		Codice inutilizzabile
+qwen3_1_7b				3		Logica errata: confronta con elementi, non con target
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				3		Errore di bounds su arr[mid], ritorno -1 in i32
+fibonacci
+Modello				Punteggio	Commento
+gemma_7b				2		Restituisce b invece di a, errore su n = 0
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_3b		5		✅
+deepseek-coder_1_3b		5		✅
+qwen3_1_7b				5		✅
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				5		✅
+
+matrix_multiplication
+Modello				Punteggio	Commento
+gemma_7b				5		✅
+deepseek-coder_6_7b		3		Uso errato di vec![(0.0; b_cols)], causa errore sintattico.
+qwen2_5-coder_3b		5		✅ (funziona per matrici 4x4 con [[i32; 4]; 4])
+deepseek-coder_1_3b		1		Codice inutilizzabile
+qwen3_1_7b				3		result[i][j] non inizializzato correttamente.
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				1		Tentativo di operare su vettori, non matrici. Accesso non valido result[i][j].
+
+is_palindrome
+Modello				Punteggio	Commento
+gemma_7b				5		✅
+deepseek-coder_6_7b		5		✅
+qwen2_5-coder_3b		5		✅
+deepseek-coder_1_3b		1		Codice incompleto e sintatticamente invalido: rev non definita.
+qwen3_1_7b				5		✅
+qwen2_5-coder_7b		5		✅
+qwen3_8b				5		✅
+gemma_2b				5		✅
