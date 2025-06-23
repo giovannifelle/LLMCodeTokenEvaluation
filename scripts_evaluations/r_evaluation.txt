@@ -51,6 +51,7 @@ deepseek-coder_1_3b		1		Usa reverse() non definita
 deepseek-coder_6_7b		2		rev(str) su stringa dà risultato errato, sempre TRUE
 qwen2_5-coder_7b		5		✅
 gemma_7b				2		Confronto con rev(string) sempre TRUE
+qwen3_1_7b				0		Codice scritto in un altro linguaggio
 
 
 

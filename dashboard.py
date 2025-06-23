@@ -3,16 +3,10 @@ import pandas as pd
 import plotly.express as px
 import io
 
-# Dati grezzi forniti dall'utente
-# Si assume che OVERALL_EVALUATION sia importato da un file 'config.py'
-# o sia definito altrove prima dell'esecuzione di questo script.
-from config import OVERALL_EVALUATION 
+from config import OVERALL_EVALUATION
 raw_data = OVERALL_EVALUATION
 
 def parse_data(raw_data):
-    """
-    Parsa la stringa di dati grezzi in un DataFrame Pandas.
-    """
     lines = raw_data.strip().split('\n')
     data = []
     current_language = None
@@ -33,19 +27,19 @@ def parse_data(raw_data):
                 score_size_str = score_size_str.strip().replace('(', '').replace(')', '')
                 if ';' in score_size_str:
                     score, size = map(str.strip, score_size_str.split(';'))
-                    score = int(score) if score.isdigit() else (0 if score.strip() == '' else score) # Handle empty score as 0
-                    size = int(size) if size.isdigit() else (0 if size.strip() == '' else size) # Handle empty size as 0
-                else: # Handle cases where only one value or invalid format is present
+                    score = int(score) if score.isdigit() else (0 if score.strip() == '' else score) 
+                    size = int(size) if size.isdigit() else (0 if size.strip() == '' else size)
+                else: 
                     score = 0
-                    size = 0 # Default values if parsing fails
-                
+                    size = 0
+                 
                 model_name = model_headers[i] if i < len(model_headers) else 'Unknown Model'
                 data.append({
-                    'Linguaggio': current_language, # Modificato da 'Lingua' a 'Linguaggio' per coerenza
+                    'Linguaggio': current_language, 
                     'Algoritmo': algorithm,
                     'Modello': model_name,
                     'Punteggio': score,
-                    'Token': size # Modificato da 'Dimensione Codice' a 'Token'
+                    'Token': size 
                 })
     return pd.DataFrame(data)
 
@@ -53,10 +47,7 @@ def parse_data(raw_data):
 st.set_page_config(layout="wide", page_title="Dashboard Analisi Performance Modelli di Codice")
 
 st.title("📊 Dashboard di Analisi Performance per Coding LLM")
-st.markdown("""
-Questa dashboard interattiva ti permette di esplorare i **punteggi** e le **dimensioni del codice** (in token) generato da diversi modelli per vari algoritmi e linguaggi di programmazione.
-Usa i filtri sulla barra laterale per affinare la tua analisi.
-""")
+
 
 # Carica i dati
 df = parse_data(raw_data)
@@ -114,8 +105,30 @@ else:
     # Abilita l'ordinamento interattivo per la tabella principale
     st.dataframe(final_df, use_container_width=True)
 
-    st.subheader(f"Visualizzazione {metric} per Modello e Algoritmo")
-    
+    # sezioni per token medi e punteggio medio 
+    st.markdown("---")
+    st.subheader("Medie per Categoria")
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.markdown("#### Per LLM")
+        avg_by_model = final_df.groupby('Modello')[['Punteggio', 'Token']].mean().reset_index()
+        st.dataframe(avg_by_model.rename(columns={'Punteggio': 'Punteggio Medio', 'Token': 'Token Medi'}).round(2), use_container_width=True)
+
+    with col2:
+        st.markdown("#### Per Linguaggio")
+        avg_by_language = final_df.groupby('Linguaggio')[['Punteggio', 'Token']].mean().reset_index()
+        st.dataframe(avg_by_language.rename(columns={'Punteggio': 'Punteggio Medio', 'Token': 'Token Medi'}).round(2), use_container_width=True)
+
+    with col3:
+        st.markdown("#### Per Algoritmo")
+        avg_by_algorithm = final_df.groupby('Algoritmo')[['Punteggio', 'Token']].mean().reset_index()
+        st.dataframe(avg_by_algorithm.rename(columns={'Punteggio': 'Punteggio Medio', 'Token': 'Token Medi'}).round(2), use_container_width=True)
+
+
+    st.subheader(f"Visualizzazione {metric} per Modello")
+     
     # Creazione del grafico a barre interattivo con Plotly Express
     fig = px.bar(
         final_df,
@@ -128,6 +141,22 @@ else:
     )
     fig.update_layout(xaxis_title="Modello", yaxis_title=metric, legend_title="Linguaggio")
     st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader(f"Visualizzazione {metric} per Linguaggio")
+     
+    # Creazione del grafico a barre interattivo con Plotly Express
+    fig = px.bar(
+        final_df,
+        x="Linguaggio",
+        y=metric,
+        color="Modello",
+        barmode="group",
+        title=f"{metric} per Linguaggio (filtrato per Modello e Algoritmo)",
+        hover_data=['Algoritmo', 'Modello', 'Punteggio', 'Token']
+    )
+    fig.update_layout(xaxis_title="Linguaggio", yaxis_title=metric, legend_title="Modello")
+    st.plotly_chart(fig, use_container_width=True)
+
 
     st.subheader("Confronto dettagliato (Modello vs Algoritmo)")
 
