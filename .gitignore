@@ -7,3 +7,6 @@ personal_text/
 # Ignora la cartella venv (ambiente virtuale)
 venv/
 
+.vscode/
+
+__pycache__/
